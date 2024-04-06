@@ -19,7 +19,20 @@
         <div class="container-fluid d-flex align-items-center justify-content-between navbar-css px-5">
             <i class="d-block fa-solid fa-bars"></i>
             <a href="Index.html"><img src="Assets/Img/Logo 3.png" class="imagen-nav"></a>
-            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-user" class="boton-usuario" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+                <div class=" despliegue-usuario offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Inicio de sesion</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    </div>
+                </div>
+            </i>
         </div>
     </nav>
 
