@@ -82,3 +82,8 @@ padding-bottom: 40px;
 .despliegue-usuario{
     color: #4D5F3E;
 }
+
+.offcanvas-header, .offcanvas-body{
+    background-color: #516343;
+    color: #f7f7f7;
+}
