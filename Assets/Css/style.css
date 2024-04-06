@@ -1,3 +1,24 @@
+:root{
+    --color-principal: #516343 
+}
 
 body{
-    background-color: aquamarine;}
+    background-color: aquamarine;
+}
+
+b{
+    background-color: #516343;
+}
+
+*{
+    margin: 0
+}
+
+.navbar-css{
+    height: 38px;
+    background-color: var(--color-principal);
+}
+
+.imagen-nav{
+    height: 30px;
+}
