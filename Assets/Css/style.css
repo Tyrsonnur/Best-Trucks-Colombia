@@ -1,5 +1,7 @@
 :root{
-    --color-principal: #516343 
+    --color-principal: #516343;
+    --color-letras-menu: #FFF;
+    --color-principal-oscuro: #35412c
 }
 
 body{
@@ -91,10 +93,42 @@ padding-bottom: 40px;
 
 .despliegue-menu ul{
     height: 100%;
+    margin-top: 25px;
+    margin-bottom: 70px;
 }
-.despliegue-menu ul li{
-    font-size: 35px;
-    list-style-type: none
+.despliegue-menu li{
+    font-size: 40px;
+    list-style-type: none;
+    color: var(--color-letras-menu);
+    border-radius: 20px;
+}
+
+.despliegue-menu a{
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.despliegue-menu a:hover{
+    background-color: #35412c;
+    transition: all 0.5s;
+}
+
+.boton-cerrar-menu{
+    margin: 39px 0 0 43px ;
+    font-size: 40px;
+    padding: 0px 10px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    max-width: 13.2%;
+}
+
+.boton-cerrar-menu:hover{
+    background-color: #35412c;
+    border: 2px solid white;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 /** Inicio de Sesion **/
