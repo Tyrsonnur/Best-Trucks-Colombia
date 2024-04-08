@@ -115,4 +115,5 @@ padding-bottom: 40px;
 
 .container{
     border: none;
+    width: 100% !important;
 }
