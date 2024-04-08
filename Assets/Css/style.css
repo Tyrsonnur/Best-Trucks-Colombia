@@ -106,7 +106,7 @@ padding-bottom: 40px;
 .despliegue-menu a{
     text-decoration: none;
     border-radius: 10px;
-
+    padding: 10px 0;
 }
 
 .despliegue-menu a:hover{
