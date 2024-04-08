@@ -87,3 +87,24 @@ padding-bottom: 40px;
     background-color: #516343;
     color: #f7f7f7;
 }
+
+/** Formulario ingreso **/
+
+.formulario-usuario-email{
+    background-color:#AAC0A5 !important;
+    border: none;
+    border-bottom: 2px !important;
+    border-color: #AAC0A5;
+}
+
+.formulario-usuario-password{
+    background-color: #AAC0A5 !important;
+    border: none;
+    border-bottom: 2px !important;
+    border-color: #AAC0A5; 
+}
+
+.boton-submit{
+    background-color: #516343;
+    border: none;
+}
