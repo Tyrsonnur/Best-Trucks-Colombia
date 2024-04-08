@@ -22,6 +22,7 @@ b{
 .navbar-css{
     overflow: hidden;
     background-color: #4D5F3E;
+    opacity: 75%;
 }
 
 .imagen-nav{
@@ -32,6 +33,7 @@ b{
     display: block;
     color:  #c9c9c9;
     font-size: 35px;
+    opacity: 100% important!;
 }
 
   /* Navbar links */
