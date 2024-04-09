@@ -33,6 +33,7 @@ body{
     display: block;
     color: var(--color-texto);
     font-size: 35px;
+    opacity: 100% important!;
 }
 
   /* Navbar links */
@@ -63,7 +64,7 @@ body{
 }
 
 .navbar-css i{
-padding-left: 20px;
+padding-left: 5px;
 padding-right: 5px;
 padding-top: 40px;
 padding-bottom: 40px;
@@ -79,6 +80,58 @@ padding-bottom: 40px;
 .imagen-nav{
     height: 30px;
 } **/
+
+/** Menu desplegable **/
+
+.despliegue-menu{
+    background-color: var(--color-principal);
+    height: 100vh;
+}
+
+.despliegue-menu button{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.despliegue-menu ul{
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.despliegue-menu li{
+    font-size: 40px;
+    list-style-type: none;
+    color: var(--color-letras-menu);
+    border-radius: 20px;
+}
+
+.despliegue-menu a{
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.despliegue-menu a:hover{
+    background-color: #35412c;
+    transition: all 0.5s;
+}
+
+.boton-cerrar-menu{
+    margin: 39px 0 0 43px ;
+    font-size: 40px;
+    padding: 0px 10px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    max-width: 13.2%;
+}
+
+.boton-cerrar-menu:hover{
+    background-color: #35412c;
+    border: 2px solid white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
 /** Inicio de Sesion **/
 
@@ -125,7 +178,7 @@ padding-bottom: 40px;
 
 .image-container{
     position: relative;
-  display: inline-block;
+    display: inline-block;
 }
 
 .image-container img {
