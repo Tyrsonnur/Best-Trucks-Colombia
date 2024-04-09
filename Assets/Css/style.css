@@ -1,5 +1,7 @@
 :root{
-    --color-principal: #516343
+    --color-principal: #516343;
+    --color-letras-menu: #FFF;
+    --color-principal-oscuro: #35412c;
 }
 
 body{
@@ -7,7 +9,7 @@ body{
 }
 
 b{
-    background-color: #516343;
+    background-color: var(--color-principal);
 }
 
 *{
@@ -20,12 +22,13 @@ b{
 .navbar-css{
     overflow: hidden;
     background-color: #4D5F3E;
+    opacity: 75%;
 }
 
 .imagen-nav{
     height: 100px;
 }
-
+/*
 .navbar-css i{
     display: block;
     color:  #c9c9c9;
@@ -59,15 +62,6 @@ b{
     padding-top: 60px;
 }
 
-.navbar-css i{
-padding-left: 20px;
-padding-right: 5px;
-padding-top: 40px;
-padding-bottom: 40px;
-
-
-}
-
 /**.navbar-css{
     height: 38px;
     background-color: var(--color-principal);
@@ -76,6 +70,74 @@ padding-bottom: 40px;
 .imagen-nav{
     height: 30px;
 } **/
+
+/** Menu desplegable **/
+
+.boton-menu-barras{
+    color: white;
+    font-size: 35px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 7px;
+}
+
+.boton-menu-barras:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--color-principal-oscuro);
+    transition: all 0.5s;
+}
+
+.despliegue-menu{
+    background-color: var(--color-principal);
+    height: 100vh;
+}
+
+.despliegue-menu button{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.despliegue-menu ul{
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.despliegue-menu li{
+    font-size: 40px;
+    list-style-type: none;
+    color: var(--color-letras-menu);
+    border-radius: 20px;
+}
+
+.despliegue-menu a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.despliegue-menu a:hover{
+    background-color: #35412c;
+    transition: all 0.5s;
+}
+
+.boton-cerrar-menu{
+    
+    margin: 39px 0 0 43px ;
+    font-size: 40px;
+    padding: 0px 10px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    max-width: 13.2%;
+}
+
+.boton-cerrar-menu:hover{
+    background-color: #35412c;
+    border: 2px solid white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
 /** Inicio de Sesion **/
 
