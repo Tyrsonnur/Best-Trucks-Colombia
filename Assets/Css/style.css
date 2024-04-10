@@ -13,8 +13,15 @@ body{
     
 }
 
+.poppins-light *{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 *{
     margin: 0
+    
 }
 
 /** Navbar Sticky **/
@@ -22,7 +29,9 @@ body{
 /* Style the navbar */
 .navbar-css{
     overflow: hidden;
-    background-color: var(--color-navbar)
+    background-color: var(--color-navbar);
+    opacity: 70%;
+    
 }
 
 .imagen-nav{
@@ -177,66 +186,40 @@ padding-bottom: 40px;
 /** Gif centro de pagina inicio **/
 
 .image-container{
-    position: relative;
-    display: inline-block;
+    background-image: url(/Assets/Img/Ford-Trucks.gif);
+    height: 729px;
+    color: var(--color-texto);
 }
 
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
+.image-container p{
+    padding-bottom: 80px;
+    padding-left: 25px;
 }
 
-.overlay-text {
-    position: absolute;
-    top: 175%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: transparent; 
-    color: var(--color-texto) ;
-    padding: 10px 20px; 
-    font-size: 30px; 
-    text-align: center;
-}
 
 
 /** contenedor parte baja inicio **/
 
-.contenedor-bloques img{
-        vertical-align: middle;
-        height: 335px !important;
-        width: 648px !important;
+.contenedor-imagenes{
+    height: 400px;
 }
 
-.overlay-text-2{
-    position:absolute; 
-    top: 245%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: transparent; 
-    color: var(--color-texto) ;
-    padding: 10px 20px; 
-    font-size: 30px; 
-    text-align: center;
+
+.contenedor-imagenes p{
+color: var(--color-texto);
+padding-left: 20px;
+padding-right: 20px;
 }
 
-.overlay-text-3{
-    position:absolute; 
-    top: 245%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: transparent; 
-    color: var(--color-texto) ;
-    padding: 10px 20px; 
-    font-size: 30px; 
-    text-align: center;
+.columna-catalogo{
+    background-image: url(/Assets/Img/Ram1500catalogo.jpg);
+    height: 400px;
+    
 }
 
-.contenedor-imagenes img{
-width: 600px;
-height: 450px;
-gap: 0px;
-margin: 0;
-padding: 0;
+.columna-comparativa{
+    background-image: url(/Assets/Img/nomas-de-parqueaderos-de-visitantes.jpg);
+    height: 400px;
 }
+
 
