@@ -1,15 +1,10 @@
-:root{
-    --color-principal: #516343;
-    --color-letras-menu: #FFF;
-    --color-principal-oscuro: #35412c;
-}
 
 body{
     background-color: #AAC0A5;
 }
 
 b{
-    background-color: var(--color-principal);
+    background-color: #516343;
 }
 
 *{
@@ -84,12 +79,12 @@ b{
 .boton-menu-barras:hover{
     border: 2px solid white;
     border-radius: 10px;
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
 .despliegue-menu{
-    background-color: var(--color-principal);
+    background-color: #516343;
     height: 100vh;
 }
 
@@ -106,7 +101,7 @@ b{
 .despliegue-menu li{
     font-size: 37px;
     list-style-type: none;
-    color: var(--color-letras-menu);
+    color: #FFF;
     border-radius: 20px;
 }
 
@@ -117,7 +112,7 @@ b{
 }
 
 .despliegue-menu a:hover{
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
@@ -132,7 +127,7 @@ b{
 }
 
 .boton-cerrar-menu:hover{
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     border: 2px solid white;
     transition: all 0.5s;
     cursor: pointer;
@@ -155,7 +150,7 @@ b{
 .boton-inicio-sesion:hover{
     border: 2px solid white;
     border-radius: 10px;
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
@@ -175,7 +170,7 @@ b{
 }
 
 .boton-cerrar-login:hover{
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     border: 2px solid white;
     transition: all 0.5s;
     cursor: pointer;
@@ -220,7 +215,7 @@ b{
 
 .contenedor-inputs input:focus{
     outline: none;
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
@@ -256,7 +251,7 @@ b{
 }
 
 .boton-login{
-    background-color: var(--color-principal);
+    background-color: #516343;
     width: 80.5%;
     border: solid 1px #fff;
     height: 60px;
@@ -265,12 +260,12 @@ b{
 
 .boton-login:hover{
     border: 1px solid #FFF;
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
 .boton-registro{
-    color: var(--color-principal);
+    color: #516343;
     background-color: #fff;
     width: 80.5%;
     border: solid 1px #fff;
@@ -282,7 +277,7 @@ b{
 .boton-registro:hover{
     border: 1px solid #FFF;
     color: #FFF;
-    background-color: var(--color-principal-oscuro);
+    background-color: #35412c;
     transition: all 0.5s;
 }
 
