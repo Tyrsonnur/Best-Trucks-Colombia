@@ -213,7 +213,6 @@ b{
     margin-top: 3px; /* Desplazar la línea hacia abajo */
 }
 
-
 .contenedor-inputs input::placeholder{
     color: #FFF;
     border: none;
