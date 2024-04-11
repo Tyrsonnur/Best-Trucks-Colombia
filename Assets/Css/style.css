@@ -65,7 +65,7 @@ b{
 
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-    position:sticky !important;
+    position:fixed !important;
     top: 0;
     width: 100%;
 }
@@ -351,4 +351,20 @@ padding-right: 20px;
 
 .texto-comparativa{
     text-decoration: none;
+}
+
+
+/** Pagina Catalogo **/
+
+.gasolina{
+    background-image: url(/Assets/Img/Tundra.jpg);
+    height: 400px;
+    width: 100% ;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+.gasolina img{
+display: block !important;
+width: 100% !important;
 }
