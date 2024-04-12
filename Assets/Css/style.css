@@ -5,12 +5,12 @@
     --color-navbar: #4D5F3E;
     --color-texto: #c9c9c9;
     --color-logo: #f2f2f2;
+    --color-auxiliar:#000000
 
 }
 
 body{
     background-color: var(--color-fondo-body)
-    
 }
 
 .poppins-light *{
@@ -41,12 +41,6 @@ b{
 .imagen-nav{
     height: 100px;
 }
-/*
-.navbar-css i{
-    display: block;
-    color: var(--color-texto);
-    font-size: 35px;
-}
 
   /* Navbar links */
 .navbar-css a {
@@ -58,31 +52,46 @@ b{
     text-decoration: none;
 }
 
-  /* Page content */
-.content {
-    padding: 0px;
-}
-
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position:fixed !important;
     top: 0;
     width: 100%;
 }
 
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
 
-/**.navbar-css{
-    height: 38px;
-    background-color: var(--color-principal);
+/** Footer **/
+
+.titulo-footer{
+    margin-top: 90px;
+    margin-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-bottom: 2px solid var(--color-auxiliar);
+    
 }
 
-.imagen-nav{
-    height: 30px;
-} **/
+.bloque-enlaces-footer{
+    margin-left:40px;
+    margin-top: 70px;
+}
+
+.bloque-enlaces-footer a{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.contenedor-redes i{
+width: 100%;
+}
+
+
+  /* Page content */
+.content {
+    padding: 0px;
+}
 
 /** Side bar Menu desplegable **/
 
