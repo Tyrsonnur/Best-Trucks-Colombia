@@ -600,7 +600,21 @@ background-size: cover !important;
 }
 
 .contenedor-informacion-f150 img {
+    height: 900px;
+    width: 1290px;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
+}
+
+.carrousel-exterior-150{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contenedor-informacion-f150 p{
+    font-weight: 400;
+    font-size: 1.2rem;
 }
