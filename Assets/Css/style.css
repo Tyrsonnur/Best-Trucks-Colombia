@@ -312,6 +312,9 @@ b{
     background-image: url(/Assets/Img/Ford-Trucks.gif);
     height: 729px;
     color: var(--color-texto);
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
 }
 
 .image-container p{
@@ -355,6 +358,11 @@ padding-right: 20px;
 
 
 /** Pagina Catálogo **/
+
+.cabecera-catalogo{
+    color: var(--color-texto);
+    background-color: var(--color-navbar);
+}
 
 .contenedor-catalogo{
     width: 1920px;
@@ -416,3 +424,135 @@ background-size: cover !important;
     text-decoration: none;
     font-size: 2.5rem;
 }
+
+/** Pagina Nosotros **/
+
+.nosotros-primer-bloque{
+    background: var(--color-fondo-body);
+    height: 450px;
+    width: 100% ;
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+}
+
+.nosotros-primer-bloque p {
+    color: var(--color-texto);
+    background: var(--color-navbar);
+    font-size: 2.2rem;
+    height: 400px;
+    width: 100% ;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.contenedor-gif-nosotros{
+    background-image: url(/Assets/Img/FordF150nosotros.gif);
+    height: 400px;
+    width: 100% ;
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
+}
+
+.nosotros-segundo-bloque{
+    background: var(--color-fondo-body);
+    height: 450px;
+    width: 100% ;
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+}
+
+.nosotros-segundo-bloque p {
+    color: var(--color-texto);
+    background: var(--color-navbar);
+    font-size: 2.2rem;
+    height: 400px;
+    width: 100% ;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+/** Pagina nosotros cuadricula inferior **/
+
+.seccion-baja-nosotros{
+    margin-left: 40px;
+    margin-right: -40px;
+}
+
+.bloque-enlaces-nosotros{
+width: 75% !important;
+
+}
+
+.columna-inicio-nosotros{
+background-image: url(/Assets/Img/Lightning.jpg);
+    height: 200px;
+    width: 50% ;
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
+}
+
+.columna-inicio-nosotros a{
+    padding-left: 490px;
+    padding-top: 300px;
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.columna-catalogo-nosotros{
+background-image: url(/Assets/Img/Ram.jpg);
+    height: 200px;
+    width: 50% ;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.columna-catalogo-nosotros a {
+    padding-right: 70px;
+    padding-top: 300px;
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.columna-comparativa-nosotros{
+background-image: url(/Assets/Img/Tundra.jpg);
+    height: 200px;
+    width: 50% ;
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
+}
+
+.columna-comparativa-nosotros a{
+    padding-left: 360px;
+    padding-top: 0px;
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.columna-encuentranos-nosotros{
+background-image: url(/Assets/Img/Ubicacion.png);
+    height: 200px;
+    width: 50% ;
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
+}
+
+.columna-encuentranos-nosotros a{
+    padding-right: 70px;
+    padding-top: 0px;
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+

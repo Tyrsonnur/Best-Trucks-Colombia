@@ -19,9 +19,10 @@
 
 </head>
 
+<!-- Navbar general para todas las paginas-->
+
 <body>
     <nav class="navbar-btc sticky-top">
-
         <div
             class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
@@ -36,22 +37,22 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="">
+            <a href="/Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <a href="">
+            <a href="/catalogo.html">
                 <li class="ps-3">Catalogo</li>
             </a>
-            <a href="">
+            <a href="/comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="">
+            <a href="/nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="">
+            <a href="/encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="">
+            <a href="/preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
         </ul>
@@ -90,88 +91,54 @@
             <div class="d-flex w-100 justify-content-center mt-3">
                 <button class="boton-registro fs-3 fw-medium">Registrarse</button>
             </div>
-
         </div>
-
     </div>
 
-    <section class="container col-12">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/Assets/Img/Lightning.jpg" class="d-block w-100" alt="Lightning">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Ford F150 Lightning</h5>
-                        <p> Explorar -> </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/Assets/Img/Tarjeta Hilux.jpg" class="d-block w-100" alt="Hilux-Diesel">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Toyota Hilux Diesel</h5>
-                        <p> Explorar -> </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/Assets/Img/Tarjeta L200 G.jpg" class="d-block w-100" alt="L200-gasolina">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Mitsubishi L200 Gasolina</h5>
-                        <p> Explorar -></p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <div>
-            <div class=" d-flex image-container justify-content-center align-items-end fs-5 fw-bold px-4 m-0">
-                <p> Tenemos una imparable voluntad de brindar la mayor experiencia de conduccion,
-                    confiabilidad y asesoria personalizada a cada uno de nuestros clientes con cada uno de nuestros
-                    vehiculos. <br>
-                    - Best Trucks Colombia</p>
-            </div>
+    <!-- Contenido -->
 
-            <div class=" d-block container align-items-center contenedor-imagenes m-0">
-                <div class="row">
-                    <div class="col columna-catalogo d-flex justify-content-end align-items-end fs-4 px-2">
-                        <div>
-                            <a href="/catalogo.html" class="texto-catalogo">
-                                <p> Catálogo -> </p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col columna-comparativa d-flex justify-content-start align-items-end fs-4 px-2">
-                        <div>
-                            <a href="/comparativa.html" class="texto-comparativa">
-                                <p> Comparativa -> </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <header>
+        <div class=" cabecera-catalogo d-flex justify-content-center align-content-center py-3 fs-5">
+            <h1> Nosotros </h1>
         </div>
+    </header>
+
+    <section class=" d-flex align-items-center w-100">
+        <div class="w-75">
+            <div class=" nosotros-primer-bloque d-block justify-content-center align-items-center py-4">
+                <p> Bienvenido a Best Trucks Colombia, somos una empresa especializada en la venta de las mejores
+                    camionetas pick ups seminuevas de marcas líderes en el mercado automotriz. Nos apasiona
+                    ofrecer una cuidadosa selección de vehículos que combinan calidad, rendimiento y durabilidad.
+                    Estamos comprometidos en brindar una experiencia de compra excepcional, guiando a nuestros
+                    clientes en cada paso del proceso para que encuentren la camioneta perfecta que se adapte a sus
+                    necesidades y estilo de vida.</p>
+            </div>
+            <div class=" contenedor-gif-nosotros d-flex justify-content-center align-items-center px-4 mx-0">
+            </div>
+            <div class=" nosotros-segundo-bloque d-block justify-content-center align-items-center py-4">
+                <p> En Best Trucks Colombia, nos esforzamos por ofrecer un servicio al cliente excepcional, basado
+                    en la transparencia y la honestidad. Nos aseguramos de que nuestros clientes encuentren
+                    la camioneta ideal y de sus sueños, valorando relaciones sólidas y duraderas. Descubre la diferencia
+                    comprando con Best Trucks Colombia y únete a nuestra familia de clientes hoy mismo!</p>
+            </div>
     </section>
+    <div class=" seccion-baja-nosotros ">
+        <div class="container bloque-enlaces-nosotros">
+            <div class="row row-cols-2 ">
+                <div class="col columna-inicio-nosotros "> <a href="/Index.html">
+                        Inicio </a></div>
+                <div class="col columna-catalogo-nosotros"> <a href="/catalogo.html"> Catálogo </a></div>
+                <div class="col columna-comparativa-nosotros"> <a href="/comparativa.html"> Comparativa </a>
+                </div>
+                <div class="col columna-encuentranos-nosotros"> <a href="/encuentranos.html"> Encuentranos</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script src="Assets/Js/code.js"></script>
