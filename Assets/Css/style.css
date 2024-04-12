@@ -597,6 +597,7 @@ background-size: cover !important;
     align-items: center;
     margin-left: 50px !important;
     margin-right: 50px !important;
+    
 }
 
 .contenedor-informacion-f150 img {
@@ -617,4 +618,8 @@ background-size: cover !important;
 .contenedor-informacion-f150 p{
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+.lista-especificaciones{
+    background-color: var(--color-fondo-body) !important;
 }
