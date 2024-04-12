@@ -97,42 +97,133 @@
     <!-- Contenido -->
 
     <header>
-        <div class=" cabecera-catalogo-gasolina d-flex justify-content-center align-content-center py-3 fs-5">
-            <h1> Catálogo Gasolina </h1>
-        </div>
+        <h1 class="d-flex justify-content-center align-items-center py-4"> Ford F-150 XLT </h1>
     </header>
 
-    <section class=" d-flex align-items-center w-100">
-        <div class=" seccion-baja-nosotros ">
-            <div class="container contenedor-modelos-gasolina">
-                <div class="row row-cols-2 ">
-                    <div class="col columna-inicio-nosotros "> <a href="/Index.html">
-                            Inicio </a></div>
-                    <div class="col columna-catalogo-nosotros"> <a href="/catalogo.html"> Catálogo </a></div>
-                    <div class="col columna-comparativa-nosotros"> <a href="/comparativa.html"> Comparativa </a>
+    <section class="py-4">
+        <div>
+            <div class=" carrousel-exterior-150 w-100 h-50">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
                     </div>
-                    <div class="col columna-encuentranos-nosotros"> <a href="/encuentranos.html"> Encuentranos</a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/Assets/Img/Carrusel f150 e 1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Assets/Img/carrusel f150 e 2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Assets/Img/Carrusel f150 e 3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Assets/Img/Carrusel f150 e 4.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-    <div class=" seccion-baja-nosotros ">
-        <div class="container bloque-enlaces-nosotros">
-            <div class="row row-cols-2 ">
-                <div class="col columna-inicio-nosotros "> <a href="/Index.html">
-                        Inicio </a></div>
-                <div class="col columna-catalogo-nosotros"> <a href="/catalogo.html"> Catálogo </a></div>
-                <div class="col columna-comparativa-nosotros"> <a href="/comparativa.html"> Comparativa </a>
-                </div>
-                <div class="col columna-encuentranos-nosotros"> <a href="/encuentranos.html"> Encuentranos</a>
-                </div>
-            </div>
-        </div>
+
+    <div class="contenedor-informacion-f150 d-block">
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center"> <i
+                    class="fa-solid fa-gas-pump"> Combustible
+                </i>
+                <p> Gasolina </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-vials"> Cilindrada </i>
+                <p> 3,500 c.c </C>
+                </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-hand-fist"> Potencia </i>
+                <p> 290 hp </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-arrow-rotate-left"> Torque </i>
+                <p> 359.2 Nm </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-screwdriver"> Valvulas </i>
+                <p> 24 </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-maximize"> Medidas </i>
+                <p> 1,960 mm (alto) 2,030 mm (ancho) 5,890 mm (largo) </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-people-arrows"> Consumo </i>
+                <p> 12,4 l/100km </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"> Rines </i>
+                <p> (17 in) </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-sack-dollar"> Precio </i>
+                <p> $200.000.000 </p>
+            </li>
+        </ul>
     </div>
 
-
-
+    <footer>
+        <div>
+            <div class="titulo-footer d-flex justify-content-start align-content-center">
+                <h3> Best trucks Colombia </h3>
+            </div>
+        </div>
+        <div class="bloque-enlaces-footer d-column">
+            <div class="my-2">
+                <a href="" class="redireccion-contactanos text-decoration-none text-dark"> Contáctanos </a>
+            </div>
+            <div class="my-2">
+                <a href="/preguntas.html" class="redireccion-preguntas text-decoration-none text-dark">
+                    Preguntas</a>
+            </div>
+            <div class="my-2">
+                <a href="/encuentranos.html" class="redireccion-Encuentranos text-decoration-none text-dark">
+                    Encuentranos
+                </a>
+            </div>
+        </div>
+        <div class=" contenedor-redes d-flex py-4 mx-3 justify-content-end align-center-end">
+            <div class="px-1">
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div class="px-1">
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="px-1">
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+            <div class="px-1">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="px-1">
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+    </footer>
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
