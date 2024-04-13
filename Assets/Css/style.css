@@ -6,7 +6,7 @@
     --color-texto: #c9c9c9;
     --color-logo: #f2f2f2;
     --color-auxiliar:#000000
-
+    --color-princpial-medio-oscuro: #47573b;
 }
 
 body{
@@ -129,7 +129,46 @@ width: 100%;
     font-size: 37px;
     list-style-type: none;
     color: #FFF;
-    border-radius: 20px;
+}
+
+.clase-catalogo{
+    border-radius: 10px;
+}
+
+.clase-catalogo:hover{
+    background-color: #35412c;
+}
+
+.despliegue-menu .clase-catalogo .clase-catalogo1{
+    width: 85%;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.despliegue-menu .clase-catalogo .clase-catalogo2{
+    height: 100%;
+    width: 15%;
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.clase-catalogo i{
+    font-size: 30px;
+    padding-left: 13px;
+    color: #FFF;
+}
+
+.despliegue-menu .clase-catalogo .clase-catalogo2:hover{
+    background-color: #fff;
+    transition: all 0.5s;
+
+}
+
+.clase-catalogo2:hover i{
+    color: #35412c;
+    transition: all 0.5s;
 }
 
 .despliegue-menu a{
@@ -188,7 +227,7 @@ width: 100%;
 
 .boton-cerrar-login{
     font-size: 40px;
-    margin: 44px 44px 0 0;
+    margin: 43px 60px 0 0;
     padding: 0px 10px;
     color: white;
     border: 2px solid transparent;
@@ -630,4 +669,9 @@ background-size: cover !important;
     left: 21% !important;
     display: none;
     height: 90vh !important;
+}
+/* Pagina comparativa*/
+
+.contenedor-comparativa{
+    background-color: var(--color-princpial-medio-oscuro)
 }
