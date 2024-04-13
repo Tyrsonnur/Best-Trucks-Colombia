@@ -23,6 +23,7 @@
 
 <body>
     <nav class="navbar-btc sticky-top">
+
         <div
             class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
@@ -37,24 +38,30 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="/Index.html">
+            <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <a href="/catalogo.html">
-                <li class="ps-3">Catalogo</li>
-            </a>
-            <a href="/comparativa.html">
+            <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
+            <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="/nosotros.html">
+            <a href="nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="/encuentranos.html">
+            <a href="encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="/preguntas.html">
+            <a href="preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
+        </ul>
+    </div>
+
+    <div class="desplegable-secundario position-absolute ">
+        <ul class="lista-segundo-menu">
+            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
+            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
+            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
         </ul>
     </div>
 

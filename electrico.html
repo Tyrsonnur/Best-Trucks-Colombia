@@ -23,6 +23,7 @@
 
 <body>
     <nav class="navbar-btc sticky-top">
+
         <div
             class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
@@ -37,24 +38,30 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="/Index.html">
+            <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <a href="/catalogo.html">
-                <li class="ps-3">Catalogo</li>
-            </a>
-            <a href="/comparativa.html">
+            <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
+            <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="/nosotros.html">
+            <a href="nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="/encuentranos.html">
+            <a href="encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="/preguntas.html">
+            <a href="preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
+        </ul>
+    </div>
+
+    <div class="desplegable-secundario position-absolute ">
+        <ul class="lista-segundo-menu">
+            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
+            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
+            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
         </ul>
     </div>
 
@@ -106,10 +113,10 @@
         <div class="row row-cols-1 row-cols-md-2 g-2 px-4">
             <div class="col">
                 <div class="card">
-                    <img src="/Assets/Img/Tarjeta f150.jpg" class="card-f150" alt="card-f150">
-                    <div class="tarjeta-f150">
-                        <h5 class="card-title-f150 fw-bolder"> Ford F-150 </h5>
-                        <p class="card-text-f150"> Gran potencia y confiabilidad todo en una 4X4</p>
+                    <img src="/Assets/Img/Tarjeta Lightning.jpg" class="card-lightning" alt="card-lightning">
+                    <div class="tarjeta-lightning">
+                        <h5 class="card-title-f150 fw-bolder"> Ford Lightning </h5>
+                        <p class="card-text-lightning"> Gran potencia y confiabilidad todo en una 4X4</p>
                         <a href="/ford-f150-gasolina.html"
                             class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
                             mas
@@ -119,10 +126,10 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="/Assets/Img/TarjetaTundra-ezgif.com-resize.jpg" class="card-tundra" alt="Tarjeta-tundra">
-                    <div class="tarjeta-tundra">
-                        <h5 class="card-title-tundra fw-bolder">Toyota Tundra</h5>
-                        <p class="card-text-tundra"> Enorme, comoda y japonesa </p>
+                    <img src="/Assets/Img/Tarjeta Jac.jpg" class="card-jac" alt="Tarjeta-jac">
+                    <div class="tarjeta-jac">
+                        <h5 class="card-title-jac fw-bolder"> Jac T8 EV </h5>
+                        <p class="card-text-jac"> Enorme, comoda y japonesa </p>
                         <a href="/toyota-tundra-gasolina.html"
                             class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
                             mas ->
@@ -132,10 +139,10 @@
             </div>
             <div class=" col ">
                 <div class="card">
-                    <img src="/Assets/Img/Tarjeta L200 G.jpg" class="card-l200" alt="Card-L200">
-                    <div class="card-body-l200">
-                        <h5 class="card-title-l200 fw-bolder"> Mitsubishi L200</h5>
-                        <p class="card-text-l200"> Modelo insignia de la marca y una de nuestras favoritas,
+                    <img src="/Assets/Img/Tarjeta RD6.jpeg" class="card-rd6" alt="Card-rd6">
+                    <div class="card-body-rd6">
+                        <h5 class="card-title-rd6 fw-bolder"> Radar RD6 EV </h5>
+                        <p class="card-text-rd6"> Modelo insignia de la marca y una de nuestras favoritas,
                             desempeño y
                             elegancia en una misma</p>
                         <a href="/mitsubishi-l200-gasolina.html"
@@ -147,10 +154,10 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="/Assets/Img/Tarjeta RAm.jpg" class="card-ram" alt="Card-ram">
-                    <div class="card-body-ram">
-                        <h5 class="card-title-ram fw-bolder"> Dodge Ram 2500 </h5>
-                        <p class="card-text-ram"> Gran potencia y torque, la opcion ideal para cargas pesadas
+                    <img src="/Assets/Img/Tarjeta Rich 6.jpeg" class="card-ram" alt="Card-rich-6">
+                    <div class="card-body-rich-6">
+                        <h5 class="card-title-ram fw-bolder"> Dongfeng Rich 6 EV </h5>
+                        <p class="card-text-rich-6"> Gran potencia y torque, la opcion ideal para cargas pesadas
                         </p>
                         <a href="/dodge-ram-gasolina.html"
                             class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce

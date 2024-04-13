@@ -623,3 +623,11 @@ background-size: cover !important;
 .lista-especificaciones{
     background-color: var(--color-fondo-body) !important;
 }
+
+.desplegable-secundario{
+    background-color: var(--color-principal);
+    z-index: 9999 !important;
+    left: 21% !important;
+    display: none;
+    height: 90vh !important;
+}

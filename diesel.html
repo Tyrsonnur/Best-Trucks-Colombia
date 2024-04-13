@@ -23,6 +23,7 @@
 
 <body>
     <nav class="navbar-btc sticky-top">
+
         <div
             class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
@@ -37,24 +38,30 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="/Index.html">
+            <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <a href="/catalogo.html">
-                <li class="ps-3">Catalogo</li>
-            </a>
-            <a href="/comparativa.html">
+            <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
+            <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="/nosotros.html">
+            <a href="nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="/encuentranos.html">
+            <a href="encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="/preguntas.html">
+            <a href="preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
+        </ul>
+    </div>
+
+    <div class="desplegable-secundario position-absolute ">
+        <ul class="lista-segundo-menu">
+            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
+            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
+            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
         </ul>
     </div>
 
@@ -106,11 +113,11 @@
         <div class="row row-cols-1 row-cols-md-2 g-2 px-4">
             <div class="col">
                 <div class="card">
-                    <img src="/Assets/Img/Tarjeta f150.jpg" class="card-f150" alt="card-f150">
-                    <div class="tarjeta-f150">
-                        <h5 class="card-title-f150 fw-bolder"> Ford F-150 </h5>
-                        <p class="card-text-f150"> Gran potencia y confiabilidad todo en una 4X4</p>
-                        <a href="/ford-f150-gasolina.html"
+                    <img src="/Assets/Img/Tarjeta F 450.jpg" class="card-f450" alt="card-f450">
+                    <div class="tarjeta-f450">
+                        <h5 class="card-title-f450 fw-bolder"> Ford F-450 Super Duty </h5>
+                        <p class="card-text-f450"> Gran potencia y confiabilidad todo en una 4X4</p>
+                        <a href="/Assets/Img/"
                             class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
                             mas
                             -></a>
@@ -119,10 +126,10 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="/Assets/Img/TarjetaTundra-ezgif.com-resize.jpg" class="card-tundra" alt="Tarjeta-tundra">
-                    <div class="tarjeta-tundra">
-                        <h5 class="card-title-tundra fw-bolder">Toyota Tundra</h5>
-                        <p class="card-text-tundra"> Enorme, comoda y japonesa </p>
+                    <img src="/Assets/Img/Tarjeta Hilux.jpg" class="card-hilux" alt="Tarjeta-hilux">
+                    <div class="tarjeta-hilux">
+                        <h5 class="card-title-hilux fw-bolder">Toyota Hilux </h5>
+                        <p class="card-text-hilux"> Enorme, comoda y japonesa </p>
                         <a href="/toyota-tundra-gasolina.html"
                             class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
                             mas ->
