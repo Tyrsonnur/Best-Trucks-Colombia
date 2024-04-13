@@ -5,6 +5,7 @@
     --color-navbar: #4D5F3E;
     --color-texto: #c9c9c9;
     --color-logo: #f2f2f2;
+    --color-princpial-medio-oscuro: #47573b;
 
 }
 
@@ -390,4 +391,10 @@ padding-right: 20px;
 
 .texto-comparativa{
     text-decoration: none;
+}
+
+/* Pagina comparativa*/
+
+.contenedor-comparativa{
+    background-color: var(--color-princpial-medio-oscuro)
 }
