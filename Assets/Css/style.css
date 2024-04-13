@@ -1,12 +1,16 @@
 :root{
     --color-principal: #516343;
     --color-fondo-body: #AAC0A5;
-    --color-body-sidebars: #516343;
     --color-navbar: #4D5F3E;
     --color-texto: #c9c9c9;
-    --color-logo: #f2f2f2;
+    --color-logo: #FFF;
     --color-auxiliar:#000000;
     --color-princpial-medio-oscuro: #47573b;
+    --color-oscuro-hover: #35412c;
+
+    /*  Colores de prueba  */
+
+    --color-principal1: 
 }
 
 body{
@@ -20,7 +24,7 @@ body{
 }
 
 b{
-    background-color: #516343;
+    background-color: var(--color-principal);
 }
 
 *{
@@ -96,7 +100,7 @@ width: 100%;
 /** Side bar Menu desplegable **/
 
 .boton-menu-barras{
-    color: white;
+    color: var(--color-logo);
     font-size: 35px;
     border: 2px solid transparent;
     border-radius: 10px;
@@ -104,14 +108,14 @@ width: 100%;
 }
 
 .boton-menu-barras:hover{
-    border: 2px solid white;
+    border: 2px solid var(--color-logo);
     border-radius: 10px;
-    background-color: #35412c;
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
 .despliegue-menu{
-    background-color: #516343;
+    background-color: var(--color-principal);
     height: 100vh;
 }
 
@@ -128,7 +132,7 @@ width: 100%;
 .despliegue-menu li{
     font-size: 37px;
     list-style-type: none;
-    color: #FFF;
+    color: var(--color-logo);
 }
 
 .clase-catalogo{
@@ -136,7 +140,7 @@ width: 100%;
 }
 
 .clase-catalogo:hover{
-    background-color: #35412c;
+    background-color: var(--color-oscuro-hover);
 }
 
 .despliegue-menu .clase-catalogo .clase-catalogo1{
@@ -157,17 +161,17 @@ width: 100%;
 .clase-catalogo i{
     font-size: 30px;
     padding-left: 13px;
-    color: #FFF;
+    color: var(--color-logo);
 }
 
 .despliegue-menu .clase-catalogo .clase-catalogo2:hover{
-    background-color: #fff;
+    background-color: var(--color-logo);
     transition: all 0.5s;
 
 }
 
 .clase-catalogo2:hover i{
-    color: #35412c;
+    color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
@@ -178,7 +182,7 @@ width: 100%;
 }
 
 .despliegue-menu a:hover{
-    background-color: #35412c;
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
@@ -186,15 +190,15 @@ width: 100%;
     margin: 39px 0 0 43px ;
     font-size: 40px;
     padding: 0px 10px;
-    color: white;
+    color: var(--color-logo);
     border: 2px solid transparent;
     border-radius: 10px;
     max-width: 13.2%;
 }
 
 .boton-cerrar-menu:hover{
-    background-color: #35412c;
-    border: 2px solid white;
+    background-color: var(--color-oscuro-hover);
+    border: 2px solid var(--color-logo);
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -202,11 +206,11 @@ width: 100%;
 /** Side bar inicio de sesion **/
 
 .despliegue-usuario{
-    background-color: #4D5F3E;
+    background-color: var(--color-navbar);
 }
 
 .boton-inicio-sesion{
-    color: white;
+    color: var(--color-logo);
     font-size: 35px;
     border: 2px solid transparent;
     border-radius: 10px;
@@ -214,9 +218,9 @@ width: 100%;
 }
 
 .boton-inicio-sesion:hover{
-    border: 2px solid white;
+    border: 2px solid var(--color-logo);
     border-radius: 10px;
-    background-color: #35412c;
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
@@ -229,15 +233,15 @@ width: 100%;
     font-size: 40px;
     margin: 43px 60px 0 0;
     padding: 0px 10px;
-    color: white;
+    color: var(--color-logo);
     border: 2px solid transparent;
     border-radius: 10px;
     max-width: 13.2%;
 }
 
 .boton-cerrar-login:hover{
-    background-color: #35412c;
-    border: 2px solid white;
+    background-color: var(--color-oscuro-hover);
+    border: 2px solid var(--color-logo);
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -252,7 +256,7 @@ width: 100%;
 .contenedor-inputs input{
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: var(--color-logo);
     padding-left: 6px;
 }
 
@@ -261,7 +265,7 @@ width: 100%;
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff; /* Color de la línea */
+    background-color: var(--color-logo); /* Color de la línea */
     margin-top: 3px; /* Desplazar la línea hacia abajo */
 }
 
@@ -270,23 +274,23 @@ width: 100%;
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff; /* Color de la línea */
+    background-color: var(--color-logo); /* Color de la línea */
     margin-top: 3px; /* Desplazar la línea hacia abajo */
 }
 
 .contenedor-inputs input::placeholder{
-    color: #FFF;
+    color: var(--color-logo);
     border: none;
 }
 
 .contenedor-inputs input:focus{
     outline: none;
-    background-color: #35412c;
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
 .div-check{
-    color: #fff;
+    color: var(--color-logo);
 
 }
 
@@ -305,45 +309,45 @@ width: 100%;
 
 .div-olvidaste-clave a{
     text-decoration: none;
-    color: #FFF;
+    color: var(--color-logo);
     border-bottom: solid 1px transparent;
 
 }
 
 .div-olvidaste-clave a:hover{
-    border-bottom: solid 1px #f2f2f2;
+    border-bottom: solid 1px var(--color-logo);
     transition: all 0.5s;
 
 }
 
 .boton-login{
-    background-color: #516343;
+    background-color: var(--color-principal);
     width: 80.5%;
-    border: solid 1px #fff;
+    border: solid 1px var(--color-logo);
     height: 60px;
     border-radius: 10px;
 }
 
 .boton-login:hover{
-    border: 1px solid #FFF;
-    background-color: #35412c;
+    border: 1px solid var(--color-logo);
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
 .boton-registro{
-    color: #516343;
-    background-color: #fff;
+    color: var(--color-principal);
+    background-color: var(--color-logo);
     width: 80.5%;
-    border: solid 1px #fff;
+    border: solid 1px var(--color-logo);
     height: 50px;
     border-radius: 10px;
     text-align: center
 }
 
 .boton-registro:hover{
-    border: 1px solid #FFF;
-    color: #FFF;
-    background-color: #35412c;
+    border: 1px solid var(--color-logo);
+    color: var(--color-logo);
+    background-color: var(--color-oscuro-hover);
     transition: all 0.5s;
 }
 
