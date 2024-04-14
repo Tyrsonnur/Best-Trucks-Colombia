@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="stylesheet" href="../../Assets/Css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -28,7 +28,7 @@
             class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
                 role="button" aria-controls="offcanvasExample"></i>
-            <a href="Index.html"><img src="Assets/Img/Logo4.png" class="imagen-nav"></a>
+            <a href="../../Index.html"><img src="../../Assets/Img/Logo4.png" class="imagen-nav"></a>
             <i class="d-block fa-regular fa-user boton-inicio-sesion" data-bs-toggle="offcanvas" href="#inicioSesion"
                 role="button" aria-controls="offcanvasRight"></i>
         </div>
@@ -38,20 +38,20 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="Index.html">
+            <a href="../../Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
             <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
-            <a href="comparativa.html">
+            <a href="../../comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="nosotros.html">
+            <a href="../../nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="encuentranos.html">
+            <a href="../../encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="preguntas.html">
+            <a href="../../preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
         </ul>
@@ -59,9 +59,9 @@
 
     <div class="desplegable-secundario position-absolute ">
         <ul class="lista-segundo-menu">
-            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
-            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
-            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
+            <li><a class="link-gasolina" href="../../gasolina.html"> Gasolina </a></li>
+            <li><a class="link-diesel" href="../../diesel.html"> Diesel </a></li>
+            <li><a class="link-electrico" href="../../electrico.html"> Electrico </a></li>
         </ul>
     </div>
 
@@ -71,7 +71,7 @@
             <i class="fa-solid fa-xmark boton-cerrar-login" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         </div>
         <div class="d-flex justify-content-center mt-0 flex-column align-items-center contenedor-inputs">
-            <a href="Index.html"><img src="Assets/Img/Logo4.png" class="imagen-nav imagen-nav-login"></a>
+            <a href="../../Index.html"><img src="../../Assets/Img/Logo4.png" class="imagen-nav imagen-nav-login"></a>
             <p class="fs-2 mt-2 mb-2 text-white">Iniciar Sesión</p>
             <div class="input1">
                 <i class="fa-solid fa-user text-white"></i>
@@ -104,72 +104,93 @@
     <!-- Contenido -->
 
     <header>
-        <div class=" cabecera-catalogo-gasolina d-flex justify-content-center align-content-center py-3 fs-5">
-            <h1> Catálogo Eléctrico </h1>
-        </div>
+        <h1 class="d-flex justify-content-center align-items-center py-4"> Ford F-150 Lightning </h1>
     </header>
 
-    <section class=" d-flex align-items-center">
-        <div class="row row-cols-1 row-cols-md-2 g-2 px-4">
-            <div class="col">
-                <div class="card">
-                    <img src="/Assets/Img/Tarjeta Lightning.jpg" class="card-lightning" alt="card-lightning">
-                    <div class="tarjeta-lightning">
-                        <h5 class="card-title-f150 fw-bolder"> Ford Lightning </h5>
-                        <p class="card-text-lightning"> Gran potencia y confiabilidad todo en una 4X4</p>
-                        <a href="camionetas/Electricas/Electrica-ford-f150.html"
-                            class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
-                            mas
-                            -></a>
+    <section class="py-4">
+        <div>
+            <div class=" carrousel-exterior-150">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="/Assets/Img/Tarjeta Jac.jpg" class="card-jac" alt="Tarjeta-jac">
-                    <div class="tarjeta-jac">
-                        <h5 class="card-title-jac fw-bolder"> Jac T8 EV </h5>
-                        <p class="card-text-jac"> Enorme, comoda y japonesa </p>
-                        <a href="camionetas/Electricas/Electrica-jac-t8.html"
-                            class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
-                            mas ->
-                        </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../Assets/Img/Carrusel f150 e 1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../Assets/Img/carrusel f150 e 2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../Assets/Img/Carrusel f150 e 3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../Assets/Img/Carrusel f150 e 4.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class=" col ">
-                <div class="card">
-                    <img src="/Assets/Img/Tarjeta RD6.jpeg" class="card-rd6" alt="Card-rd6">
-                    <div class="card-body-rd6">
-                        <h5 class="card-title-rd6 fw-bolder"> Radar RD6 EV </h5>
-                        <p class="card-text-rd6"> Modelo insignia de la marca y una de nuestras favoritas,
-                            desempeño y
-                            elegancia en una misma</p>
-                        <a href="camionetas/Electricas/Electrica-radar-rd6.html"
-                            class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
-                            mas ->
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="/Assets/Img/Tarjeta Rich 6.jpeg" class="card-ram" alt="Card-rich-6">
-                    <div class="card-body-rich-6">
-                        <h5 class="card-title-ram fw-bolder"> Dongfeng Rich 6 EV </h5>
-                        <p class="card-text-rich-6"> Gran potencia y torque, la opcion ideal para cargas pesadas
-                        </p>
-                        <a href="camionetas/Electricas/Electrica-dongfeng-rich.html"
-                            class="d-flex justify-content-center align-items-center text-decoration-none"> Conoce
-                            mas ->
-                        </a>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
-
     </section>
 
+    <div class="contenedor-informacion-f150 d-block">
+        <ul class="list-group lista-especificaciones">
+            <li class="list-group-item d-flex justify-content-between align-items-center"> <i
+                    class="fa-solid fa-gas-pump"> Combustible
+                </i>
+                <p> Eléctrico </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-car-battery"> Capacidad bateria </i>
+                <p> 131 kWh </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-gears"> Numero de motores </i>
+                <p> 2 </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-hand-fist"> Potencia </i>
+                <p> 562,24 Hp </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-arrow-rotate-left"> Torque </i>
+                <p> 1050 Nm </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-maximize"> Medidas </i>
+                <p> 2,000 mm (alto) 2,030 mm (ancho) 5,890 mm (largo) </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-battery-three-quarters"> Autonomia </i>
+                <p> 480 km </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"> Rines </i>
+                <p> (17 in) </p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-sack-dollar"> Precio </i>
+                <p> $279.445.000 COP</p>
+            </li>
+        </ul>
+    </div>
 
     <footer>
         <div>
@@ -182,11 +203,11 @@
                 <a href="" class="redireccion-contactanos text-decoration-none text-dark"> Contáctanos </a>
             </div>
             <div class="my-2">
-                <a href="/preguntas.html" class="redireccion-preguntas text-decoration-none text-dark">
+                <a href="../../preguntas.html" class="redireccion-preguntas text-decoration-none text-dark">
                     Preguntas</a>
             </div>
             <div class="my-2">
-                <a href="/encuentranos.html" class="redireccion-Encuentranos text-decoration-none text-dark">
+                <a href="../../encuentranos.html" class="redireccion-Encuentranos text-decoration-none text-dark">
                     Encuentranos
                 </a>
             </div>
@@ -210,11 +231,10 @@
         </div>
     </footer>
 
-
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
-    <script src="Assets/Js/code.js"></script>
+    <script src="../../Assets/Js/code.js"></script>
 </body>
 
 </html>
