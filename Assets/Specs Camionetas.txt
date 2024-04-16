@@ -82,6 +82,17 @@ Consumo: 6,6 l/100km
 Rines: (18 in)
 Precio: $200.000.000
 
+*Toyota Hilux
+Combustible: Diesel
+Cilindraje: 2,700 c.c
+Potencia: 166 hp
+Torque: 244.05 Nm
+Valvulas: 16
+Medidas: 1,815 mm (alto) 1,815 mm (ancho) 5,335 mm (Largo)
+Consumo: 9,9 l/100km
+Rines: (17 in)
+Precio: $190.000.000
+
 ------------------------------------------------------
 *Ford F-150 Lightning
 
