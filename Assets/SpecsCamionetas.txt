@@ -121,8 +121,8 @@ Precio: $120.000.000
 11. *Radar RD6 EV
 
 Combustible: Eléctrico
-Capacidad bateria: 
-Numero de motores: 
+Capacidad bateria: 100 kWh
+Numero de motores: 1
 Potencia: 268 hp
 Torque: 384 Nm
 Medidas: 1,865 mm (alto) 1,900 mm (ancho) 5,260 mm (largo)
