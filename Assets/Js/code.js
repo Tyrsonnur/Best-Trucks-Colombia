@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 case 'catalogo':
                     menuSecundario.innerHTML = `
                         <ul class="lista-segundo-menu">
-                            <li><a class="link-gasolina" href="catalogo.html"> Gasolina </a></li>
-                            <li><a class="link-diesel" href="#"> Diesel </a></li>
-                            <li><a class="link-electrico" href="#"> Electrico </a></li>
+                            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
+                            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
+                            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
                         </ul>`;
                     break;
                 default:

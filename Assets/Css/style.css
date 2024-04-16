@@ -70,15 +70,14 @@ b{
 
 .titulo-footer{
     margin-top: 90px;
-    margin-left: 40px;
-    padding-right: 40px;
+    margin-left: 20px;
     border: none;
     border-bottom: 2px solid var(--color-auxiliar);
     
 }
 
 .bloque-enlaces-footer{
-    margin-left:40px;
+    margin-left:20px;
     margin-top: 70px;
 }
 
@@ -88,7 +87,7 @@ b{
 }
 
 .contenedor-redes i{
-width: 100%;
+width: 75%;
 }
 
 
