@@ -142,14 +142,14 @@ width: 75%;
     background-color: var(--color-oscuro-hover);
 }
 
-.despliegue-menu .clase-catalogo .clase-catalogo1{
+.despliegue-menu .clase-catalogo .clase-catalogo1 .desplegable-secundario{
     width: 85%;
     border-radius: 0px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-.despliegue-menu .clase-catalogo .clase-catalogo2{
+.despliegue-menu .clase-catalogo .clase-catalogo2 .desplegable-secundario{
     height: 100%;
     width: 15%;
     border-radius: 0px;
@@ -675,6 +675,33 @@ background-size: cover !important;
     display: none;
     height: 90vh !important;
 }
+
+.desplegable-secundario{
+    background-color: var(--color-fondo-body);
+    height: 100vh;
+    width: 20%;
+}
+
+.desplegable-secundario ul{
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.desplegable-secundario li {
+    font-size: 37px;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.desplegable-secundario a {
+    text-decoration: none;
+    color: var(--color-logo);
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+
 /* Pagina comparativa*/
 
 .contenedor-comparativa{
