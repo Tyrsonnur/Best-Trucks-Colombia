@@ -518,7 +518,7 @@ background-size: cover !important;
 
 .nosotros-primer-bloque{
     background: var(--color-fondo-body);
-    height: 450px;
+    height: 650px;
     width: 100% ;
     margin-left: 250px !important;
     margin-right: 250px !important;
@@ -528,7 +528,7 @@ background-size: cover !important;
     color: var(--color-texto);
     background: var(--color-navbar);
     font-size: 2.2rem;
-    height: 400px;
+    height: 550px;
     width: 100% ;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -552,24 +552,27 @@ background-size: cover !important;
     width: 100% ;
     margin-left: 250px !important;
     margin-right: 250px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-bottom: 60px;
 }
 
 .nosotros-segundo-bloque p {
     color: var(--color-texto);
     background: var(--color-navbar);
     font-size: 2.2rem;
-    height: 400px;
+    height: 500px;
     width: 100% ;
     padding-top: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     padding-left: 25px;
 }
 
 /** Pagina nosotros cuadricula inferior **/
 
 .seccion-baja-nosotros{
-    margin-left: 40px;
-    margin-right: -40px;
+    margin-left: 62px;
+    margin-right: -65px;
 }
 
 .bloque-enlaces-nosotros{
@@ -587,8 +590,6 @@ background-size: cover !important;
 }
 
 .columna-inicio-nosotros a{
-    padding-left: 490px;
-    padding-top: 300px;
     color: var(--color-texto);
     text-decoration: none;
     font-size: 2.5rem;
@@ -621,7 +622,6 @@ background-size: cover !important;
 }
 
 .columna-comparativa-nosotros a{
-    padding-left: 360px;
     padding-top: 0px;
     color: var(--color-texto);
     text-decoration: none;
