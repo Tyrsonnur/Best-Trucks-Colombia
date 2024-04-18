@@ -41,7 +41,11 @@
             <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
+            <div class="d-flex w-100 justify-content-between align-items-center menu-catalogo">
+                <a href="catalogo.html" class="menu-catalogo1 ps-3">Catalogo</a>
+                <li class="menu-catalogo2 h-100" data-boton-catalogo="catalogo"><i
+                        class="fa-solid fa-chevron-right"></i></li>
+            </div>
             <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
@@ -57,7 +61,7 @@
         </ul>
     </div>
 
-    <div class="desplegable-secundario position-absolute ">
+    <div class="desplegable-secundario position-absolute sticky-bottom">
         <ul class="lista-segundo-menu">
             <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
             <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>

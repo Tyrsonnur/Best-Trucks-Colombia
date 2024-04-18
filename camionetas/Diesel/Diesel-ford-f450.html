@@ -38,30 +38,34 @@
         aria-labelledby="offcanvasExampleLabel">
         <i class="fa-solid fa-xmark boton-cerrar-menu" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         <ul class="text-white d-flex flex-column justify-content-between me-5">
-            <a href="../../Index.html">
+            <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <li class="ps-3" data-boton-catalogo="catalogo">Catálogo</li>
-            <a href="../../comparativa.html">
+            <div class="d-flex w-100 justify-content-between align-items-center menu-catalogo">
+                <a href="catalogo.html" class="menu-catalogo1 ps-3">Catalogo</a>
+                <li class="menu-catalogo2 h-100" data-boton-catalogo="catalogo"><i
+                        class="fa-solid fa-chevron-right"></i></li>
+            </div>
+            <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
-            <a href="../../nosotros.html">
+            <a href="nosotros.html">
                 <li class="ps-3">Nosotros</li>
             </a>
-            <a href="../../encuentranos.html">
+            <a href="encuentranos.html">
                 <li class="ps-3">Encuentranos</li>
             </a>
-            <a href="../../preguntas.html">
+            <a href="preguntas.html">
                 <li class="ps-3">Preguntas</li>
             </a>
         </ul>
     </div>
 
-    <div class="desplegable-secundario bg-black ">
+    <div class="desplegable-secundario position-absolute sticky-bottom">
         <ul class="lista-segundo-menu">
-            <li><a class="link-gasolina" href="../../gasolina.html"> Gasolina </a></li>
-            <li><a class="link-diesel" href="../../diesel.html"> Diesel </a></li>
-            <li><a class="link-electrico" href="../../electrico.html"> Electrico </a></li>
+            <li><a class="link-gasolina" href="gasolina.html"> Gasolina </a></li>
+            <li><a class="link-diesel" href="diesel.html"> Diesel </a></li>
+            <li><a class="link-electrico" href="electrico.html"> Electrico </a></li>
         </ul>
     </div>
 
@@ -71,7 +75,7 @@
             <i class="fa-solid fa-xmark boton-cerrar-login" data-bs-dismiss="offcanvas" aria-label="Close"></i>
         </div>
         <div class="d-flex justify-content-center mt-0 flex-column align-items-center contenedor-inputs">
-            <a href="../../Index.html"><img src="../../Assets/Img/Logo4.png" class="imagen-nav imagen-nav-login"></a>
+            <a href="Index.html"><img src="Assets/Img/Logo4.png" class="imagen-nav imagen-nav-login"></a>
             <p class="fs-2 mt-2 mb-2 text-white">Iniciar Sesión</p>
             <div class="input1">
                 <i class="fa-solid fa-user text-white"></i>
