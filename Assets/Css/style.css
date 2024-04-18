@@ -17,7 +17,7 @@ body{
     background-color: var(--color-fondo-body)
 }
 
-.poppins-light *{
+*{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -679,4 +679,28 @@ background-size: cover !important;
 
 .contenedor-comparativa{
     background-color: var(--color-princpial-medio-oscuro)
+}
+
+.estilo-inputs{
+    border: 0px;
+border-bottom: 1px solid #000000 !important;
+border-radius: 0%;
+}
+
+.contenedor-preguntas{
+    height: 800px;
+    width: 900px;
+    background-image: url(/Assets/Img/Logo4.png);
+    background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: auto;
+}
+
+.formulario{
+border-radius: 2%;
+}
+
+.tamano-area{
+    height: 300px !important;
+    width: 200px !important;
 }
