@@ -116,24 +116,30 @@
             <div class="d-flex w-100 contenedor-seleccionar-comparativa justify-content-center">
 
 
-                <div class="d-flex flex-column contenedor-seleccionar-comparativa1">
-                    <a href="" class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center">
-                        Seleccione tipo de combustible<i class="fa-solid fa-chevron-down ms-2 "></i>
-                    </a>
-                    <a href="" class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center">
-                        Seleccione camioneta<i class="fa-solid fa-chevron-down ms-2"></i>
-                    </a>
-                </div>
+                <form name="seleccionar_camioneta_1" class="d-flex flex-column formulario-seleccionar-comparativa1">
+                    <select name="seleccionado" class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center" onchange="camioneta_comparar1()">
+                        <option value="0">Seleccione tipo de combustiblexd</option>
+                        <option value="1">Gasolina</option>
+                        <option value="2">Diesel</option>
+                        <option value="3">Electrica</option>
+                    </select>
+                    <select name="opt" class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center">
+                        <option value="-">Seleccione camioneta</option>
+                    </select>
+                </form>
                 <div class="comparativa-linea-vertical">
                 </div>
-                <div class="d-flex flex-column contenedor-seleccionar-comparativa2">
-                    <a href="" class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center">
-                        Seleccione tipo de combustible<i class="fa-solid fa-chevron-down ms-2 "></i>
-                    </a>
-                    <a href="" class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center">
-                        Seleccione camioneta<i class="fa-solid fa-chevron-down ms-2"></i>
-                    </a>
-                </div>
+                <form name="seleccionar_camioneta_2" class="d-flex flex-column formulario-seleccionar-comparativa2">
+                    <select name="seleccionado2" class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center" onchange="camioneta_comparar2()">
+                        <option value="0">Seleccione tipo de combustiblexd</option>
+                        <option value="1">Gasolina</option>
+                        <option value="2">Diesel</option>
+                        <option value="3">Electrica</option>
+                    </select>
+                    <select name="opt" class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center">
+                        <option value="-">Selecciona camioneta</option>
+                    </select>
+                </form>
                 
 
             </div>

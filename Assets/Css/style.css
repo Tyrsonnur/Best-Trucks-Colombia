@@ -757,12 +757,12 @@ background-size: cover !important;
     border-left: 3px solid var(--color-logo);
 }
 
-.contenedor-seleccionar-comparativa1{
-    transform: translateX(-40px);
+.formulario-seleccionar-comparativa1{
+    transform: translateX(-30px)
 }
 
-.contenedor-seleccionar-comparativa2{
-    transform: translateX(40px);
+.formulario-seleccionar-comparativa2{
+    transform: translateX(30px)
 }
 
 /*

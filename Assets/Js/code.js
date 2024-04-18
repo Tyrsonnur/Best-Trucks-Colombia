@@ -164,10 +164,82 @@ let Electrica_dongfeng_rich ={
     precio: "$175.000.000",
     }
 
-let camionetas = [Gasolina_ford_f150, Gasolina_toyota_tundra, Gasolina_nissan_frontier, Gasolina_dodge_ram, Diesel_ford_f450, Diesel_mitsubishi_l200, Diesel_dodge_ram2500, Diesel_toyota_hilux, Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
+let ObjetoFormulario = {
+    nombre: "Selecciona camioneta"
+}
 
-let gasolina = [Gasolina_ford_f150,Gasolina_toyota_tundra,Gasolina_nissan_frontier, Gasolina_dodge_ram]
-let diesel = [Diesel_ford_f450,Diesel_mitsubishi_l200,Diesel_dodge_ram2500,Diesel_toyota_hilux]
-let electrica = [Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
 
-camionetas[gasolina,diesel,electrica]
+let opt_1 = [ObjetoFormulario, Gasolina_ford_f150,Gasolina_toyota_tundra,Gasolina_nissan_frontier, Gasolina_dodge_ram]
+let opt_2 = [ObjetoFormulario, Diesel_ford_f450,Diesel_mitsubishi_l200,Diesel_dodge_ram2500,Diesel_toyota_hilux]
+let opt_3 = [ObjetoFormulario, Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
+
+let camionetas = [opt_1,opt_2,opt_3]
+
+console.log(opt_1[1].nombre)
+
+function camioneta_comparar1() {
+    let seleccionado = document.forms["seleccionar_camioneta_1"]["seleccionado"].value;
+
+    if (seleccionado != 0) {
+        let mis_opciones;
+        if (seleccionado === "1") {
+            mis_opciones = opt_1;
+        } else if (seleccionado === "2") {
+            mis_opciones = opt_2;
+        } else if (seleccionado === "3") {
+            mis_opciones = opt_3;
+        }
+
+        let numero_opciones = mis_opciones.length;
+
+        let selectOpt = document.forms["seleccionar_camioneta_1"]["opt"];
+        selectOpt.length = numero_opciones;
+
+        for (let i = 0; i < numero_opciones; i++) {
+            selectOpt.options[i].value = mis_opciones[i].nombre;
+            selectOpt.options[i].text = mis_opciones[i].nombre;
+        }
+    } else {
+        let selectOpt = document.forms["seleccionar_camioneta_1"]["opt"];
+        selectOpt.length = 1;
+        selectOpt.options[0].value = "Selecciona camioneta";
+        selectOpt.options[0].text = "Selecciona camioneta"
+    }
+
+    document.forms["seleccionar_camioneta_1"]["opt"].options[0].selected = true;
+}
+
+function camioneta_comparar2() {
+    let seleccionado2 = document.forms["seleccionar_camioneta_2"]["seleccionado2"].value;
+
+    if (seleccionado2 != 0) {
+        let mis_opciones;
+        if (seleccionado2 === "1") {
+            mis_opciones = opt_1;
+        } else if (seleccionado2 === "2") {
+            mis_opciones = opt_2;
+        } else if (seleccionado2 === "3") {
+            mis_opciones = opt_3;
+        }
+
+        let numero_opciones = mis_opciones.length;
+
+        let selectOpt = document.forms["seleccionar_camioneta_2"]["opt"];
+        selectOpt.length = numero_opciones;
+
+        for (let i = 0; i < numero_opciones; i++) {
+            selectOpt.options[i].value = mis_opciones[i].nombre;
+            selectOpt.options[i].text = mis_opciones[i].nombre;
+        }
+    } else {
+        let selectOpt = document.forms["seleccionar_camioneta_2"]["opt"];
+        selectOpt.length = 1;
+        selectOpt.options[0].value = "Selecciona camioneta";
+        selectOpt.options[0].text = "Selecciona camioneta"
+    }
+
+    document.forms["seleccionar_camioneta_2"]["opt"].options[0].selected = true;
+}
+
+
+
