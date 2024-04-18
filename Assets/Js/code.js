@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Objetos Camionetas
+// Objetos Camionetas -- Pagina Comparativa
 
 let Gasolina_ford_f150 ={
     nombre: "Ford F-150",
@@ -241,5 +241,9 @@ function camioneta_comparar2() {
     document.forms["seleccionar_camioneta_2"]["opt"].options[0].selected = true;
 }
 
+const select1 = document.forms["seleccionar_camioneta_1"]["seleccionado"];
+const select2 = document.forms["seleccionar_camioneta_2"]["seleccionado2"];
 
+select1.addEventListener('change', camioneta_comparar1);
+select2.addEventListener('change', camioneta_comparar2)
 
