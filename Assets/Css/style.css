@@ -743,14 +743,9 @@ background-size: cover !important;
     background-color: var(--color-princpial-medio-oscuro)
 }
 
-/*.contenedor-seleccionar-comparativa{
-    height: 100px !important;
-    background-color: red !important;
-}
-*/
 .contenedor-seleccionar-comparativa {
     position: relative;
-    padding: 0 200px;
+    padding: 20px 0px;
 }
 
 .contenedor-seleccionar-comparativa::before {
@@ -758,14 +753,21 @@ background-size: cover !important;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%; /* Coloca la línea en el centro horizontal del contenedor */
+    left: 49.925%; /* Coloca la línea en el centro horizontal del contenedor */
     border-left: 3px solid var(--color-logo);
-    .estilo-inputs{
-        border: 0px;
-    border-bottom: 1px solid #000000 !important;
-    border-radius: 0%;
-    }
-    
+}
+
+.contenedor-seleccionar-comparativa1{
+    transform: translateX(-40px);
+}
+
+.contenedor-seleccionar-comparativa2{
+    transform: translateX(40px);
+}
+
+/*
+
+*/
     .contenedor-preguntas{
         height: 800px;
         width: 900px;
@@ -782,4 +784,4 @@ background-size: cover !important;
     .tamano-area{
         height: 300px !important;
         width: 200px !important;
-    }}
+    }

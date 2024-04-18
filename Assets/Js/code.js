@@ -166,4 +166,8 @@ let Electrica_dongfeng_rich ={
 
 let camionetas = [Gasolina_ford_f150, Gasolina_toyota_tundra, Gasolina_nissan_frontier, Gasolina_dodge_ram, Diesel_ford_f450, Diesel_mitsubishi_l200, Diesel_dodge_ram2500, Diesel_toyota_hilux, Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
 
-console.log(camionetas[11].nombre)
+let gasolina = [Gasolina_ford_f150,Gasolina_toyota_tundra,Gasolina_nissan_frontier, Gasolina_dodge_ram]
+let diesel = [Diesel_ford_f450,Diesel_mitsubishi_l200,Diesel_dodge_ram2500,Diesel_toyota_hilux]
+let electrica = [Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
+
+camionetas[gasolina,diesel,electrica]
