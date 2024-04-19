@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Objetos Camionetas -- Pagina Comparativa
 
-let Gasolina_ford_f150 ={
+let Gasolina_ford_f150 = {
     nombre: "Ford F-150",
     combustible: "Gasolina",
     potencia: "290 hp",
@@ -51,8 +51,9 @@ let Gasolina_ford_f150 ={
     medidas: "1,960 mm (alto) 2,030 mm (ancho) 5,890 mm (largo)",
     rin: "(17 in)",
     precio: "$200.000.000",
-    }
-let Gasolina_toyota_tundra ={
+    imagen: "Assets/Img/imagenes-comparativa/Gasolina_Tarjeta_f150_2.jpg"
+}
+let Gasolina_toyota_tundra = {
     nombre: "Toyota Tundra",
     combustible: "Gasolina",
     potencia: "375.81 hp",
@@ -60,8 +61,9 @@ let Gasolina_toyota_tundra ={
     medidas: "Medidas: 1,935 mm (Alto) 2029 mm (Ancho) 5,814 mm (Largo)",
     rin: "Rines: (18 in)",
     precio: "Precio: $340.000.000",
-    }
-let Gasolina_nissan_frontier ={
+    imagen: "Assets/Img/imagenes-comparativa/Gasolina_Tarjeta_Tundra.jpg"
+}
+let Gasolina_nissan_frontier = {
     nombre: "Nissan Frontier",
     combustible: "Gasolina",
     potencia: "158 hp",
@@ -69,8 +71,9 @@ let Gasolina_nissan_frontier ={
     medidas: "1,803 mm (Altura) 1,850 (Ancho) 5,253 (Laargo)",
     rin: "(16 in)",
     precio: "$147.000.000",
-    }
-let Gasolina_dodge_ram ={
+    imagen: "Assets/Img/imagenes-comparativa/Gasolina_Tarjeta_Nissan_frontier_2.jpg"
+}
+let Gasolina_dodge_ram = {
     nombre: "Dodge Ram 1500",
     combustible: "Gasolina",
     potencia: "395 hp",
@@ -78,17 +81,19 @@ let Gasolina_dodge_ram ={
     medidas: "1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (Largo)",
     rin: "(18 in)",
     precio: "$180.000.000",
-    }
-let Diesel_ford_f450 ={
-    nombre: "Ford F-450 ",
+    imagen: "Assets/Img/imagenes-comparativa/Gasolina_Tarjeta_RAm_2.jpg"
+}
+let Diesel_ford_f450 = {
+    nombre: "Ford F-450",
     combustible: "Diesel",
     potencia: "330 hp",
     torque: "1,288.03 Nm",
     medidas: "2,085 mm (Alto) 2,438 mm (Ancho) 6,751 mm (Largo)",
     rin: "(19.5 in)",
     precio: "$343.339.750",
-    }
-let Diesel_mitsubishi_l200 ={
+    imagen: "Assets/Img/imagenes-comparativa/Diesel_Tarjeta_F450.jpg"
+}
+let Diesel_mitsubishi_l200 = {
     nombre: "Mitsubishi L200",
     combustible: "Diesel",
     potencia: "136 hp",
@@ -96,8 +101,9 @@ let Diesel_mitsubishi_l200 ={
     medidas: "1.815 mm (ancho)  1.795 mm (alto) 5.220 mm (largo)",
     rin: "(18 in)",
     precio: "$142.000.000",
-    }
-let Diesel_dodge_ram2500 ={
+    imagen: "Assets/Img/imagenes-comparativa/Diesel_Tarjeta_L200_G.jpg"
+}
+let Diesel_dodge_ram2500 = {
     nombre: "Dodge Ram 2500 Laramie",
     combustible: "Diesel",
     potencia: "370 hp",
@@ -105,8 +111,10 @@ let Diesel_dodge_ram2500 ={
     medidas: "1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (Largo)",
     rin: "(18 in)",
     precio: "$200.000.000",
-    }
-let Diesel_toyota_hilux ={
+    imagen: "Assets/Img/imagenes-comparativa/Diesel_Tarjeta_ram_2500.jpg"
+
+}
+let Diesel_toyota_hilux = {
     nombre: "Toyota Hilux",
     combustible: "Diesel",
     potencia: "166 hp",
@@ -114,8 +122,9 @@ let Diesel_toyota_hilux ={
     medidas: "1,815 mm (alto) 1,815 mm (ancho) 5,335 mm (Largo)",
     rin: "(17 in)",
     precio: "$190.000.000",
-    }
-let Electrica_ford_f150 ={
+    imagen: "Assets/Img/imagenes-comparativa/Diesel_Tarjeta_Hilux.jpg"
+}
+let Electrica_ford_f150 = {
     nombre: "Ford F-150 Lightning",
     combustible: "Electrica",
     potencia: "562,24 Hp",
@@ -123,17 +132,20 @@ let Electrica_ford_f150 ={
     medidas: "2,000 mm (alto) 2,030 mm (ancho) 5,890 mm (largo)",
     rin: "(17 in)",
     precio: "$279.445.951",
-    }
-let Electrica_jac_t8 ={
-    nombre: "Jac T8 ",
+    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_Lightning.jpg"
+
+}
+let Electrica_jac_t8 = {
+    nombre: "Jac T8",
     combustible: "Electrica",
     potencia: "140 hp",
     torque: "340 Nm",
     medidas: "1,830 mm (alto) 1,880 mm (ancho) 5,325 mm (largo)",
     rin: "(18 in)",
     precio: "$120.000.000",
-    }
-let Electrica_radar_rd6 ={
+    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_Jac.jpg"
+}
+let Electrica_radar_rd6 = {
     nombre: "Radar RD6 EV",
     combustible: "Electrica",
     potencia: "268 hp",
@@ -141,8 +153,9 @@ let Electrica_radar_rd6 ={
     medidas: "1,865 mm (alto) 1,900 mm (ancho) 5,260 mm (largo)",
     rin: "(17 in)",
     precio: "$170.000.000",
-    }
-let Electrica_dongfeng_rich ={
+    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_RD6.jpeg"
+}
+let Electrica_dongfeng_rich = {
     nombre: "Dongfeng Rich",
     combustible: "Electrica",
     potencia: "161 Hp",
@@ -150,18 +163,19 @@ let Electrica_dongfeng_rich ={
     medidas: "1,820 mm (alto) 1,850 mm (ancho) 5,290 mm (largo)",
     rin: "(18 in)",
     precio: "$175.000.000",
-    }
+    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_Rich_6.jpeg"
+}
 
 let ObjetoFormulario = {
     nombre: "Selecciona camioneta"
 }
 
 
-let opt_1 = [ObjetoFormulario, Gasolina_ford_f150,Gasolina_toyota_tundra,Gasolina_nissan_frontier, Gasolina_dodge_ram]
-let opt_2 = [ObjetoFormulario, Diesel_ford_f450,Diesel_mitsubishi_l200,Diesel_dodge_ram2500,Diesel_toyota_hilux]
+let opt_1 = [ObjetoFormulario, Gasolina_ford_f150, Gasolina_toyota_tundra, Gasolina_nissan_frontier, Gasolina_dodge_ram]
+let opt_2 = [ObjetoFormulario, Diesel_ford_f450, Diesel_mitsubishi_l200, Diesel_dodge_ram2500, Diesel_toyota_hilux]
 let opt_3 = [ObjetoFormulario, Electrica_ford_f150, Electrica_jac_t8, Electrica_radar_rd6, Electrica_dongfeng_rich]
 
-let camionetas = [opt_1,opt_2,opt_3]
+let camionetas = [opt_1, opt_2, opt_3]
 
 /* Funciones para el select dinamico */
 
@@ -181,10 +195,11 @@ function camioneta_comparar1() {
         let numero_opciones = mis_opciones.length;
 
         let selectOpt = document.forms["seleccionar_camioneta_1"]["opt"];
+        console.log("🚀 ~ camioneta_comparar1 ~ selectOpt:", selectOpt.options)
         selectOpt.length = numero_opciones;
 
         for (let i = 0; i < numero_opciones; i++) {
-            selectOpt.options[i].value = mis_opciones[i];
+            selectOpt.options[i].value = mis_opciones[i].nombre;
             selectOpt.options[i].text = mis_opciones[i].nombre;
         }
     } else {
@@ -236,74 +251,156 @@ select1.addEventListener('change', camioneta_comparar1);
 select2.addEventListener('change', camioneta_comparar2)
 
 
-
 /* Funcion crear tarjetas de comparacion */
 
 let botonComparar = document.querySelector("#btn-comparar")
 
 botonComparar.addEventListener("click", () => {
+
+    let selectCarro1 = document.querySelector("#seleccioneCamioneta").value
+
+    switch (selectCarro1) {
+        case 'Ford F-150':
+            selectCarro1 = Gasolina_ford_f150
+            break;
+        case 'Toyota Tundra':
+            selectCarro1 = Gasolina_toyota_tundra
+            break;
+        case 'Nissan Frontier':
+            selectCarro1 = Gasolina_nissan_frontier
+            break;
+        case 'Dodge Ram 1500':
+            selectCarro1 = Gasolina_dodge_ram
+            break;
+        case 'Ford F-450':
+            selectCarro1 = Diesel_ford_f450
+            break;
+        case 'Mitsubishi L200':
+            selectCarro1 = Diesel_mitsubishi_l200
+            break;
+        case 'Dodge Ram 2500 Laramie':
+            selectCarro1 = Diesel_dodge_ram2500
+            break;
+        case 'Toyota Hilux':
+            selectCarro1 = Diesel_toyota_hilux
+            break;
+        case 'Ford F-150 Lightning':
+            selectCarro1 = Electrica_ford_f150
+            break;
+        case 'Jac T8':
+            selectCarro1 = Electrica_jac_t8
+            break;
+        case 'Radar RD6 EV':
+            selectCarro1 = Electrica_radar_rd6
+            break;
+        case 'Dongfeng Rich':
+            selectCarro1 = Electrica_dongfeng_rich
+            break;
+    }
+
+    let selectCarro2 = document.querySelector("#seleccioneCamioneta2").value
+
+    switch (selectCarro2) {
+        case 'Ford F-150':
+            selectCarro2 = Gasolina_ford_f150
+            break;
+        case 'Toyota Tundra':
+            selectCarro2 = Gasolina_toyota_tundra
+            break;
+        case 'Nissan Frontier':
+            selectCarro2 = Gasolina_nissan_frontier
+            break;
+        case 'Dodge Ram 1500':
+            selectCarro2 = Gasolina_dodge_ram
+            break;
+        case 'Ford F-450':
+            selectCarro2 = Diesel_ford_f450
+            break;
+        case 'Mitsubishi L200':
+            selectCarro2 = Diesel_mitsubishi_l200
+            break;
+        case 'Dodge Ram 2500 Laramie':
+            selectCarro2 = Diesel_dodge_ram2500
+            break;
+        case 'Toyota Hilux':
+            selectCarro2 = Diesel_toyota_hilux
+            break;
+        case 'Ford F-150 Lightning':
+            selectCarro2 = Electrica_ford_f150
+            break;
+        case 'Jac T8':
+            selectCarro2 = Electrica_jac_t8
+            break;
+        case 'Radar RD6 EV':
+            selectCarro2 = Electrica_radar_rd6
+            break;
+        case 'Dongfeng Rich':
+            selectCarro2 = Electrica_dongfeng_rich
+            break;
+    }
+
     let cuadrosComparativos = document.querySelector("#colocar-carros-comparativa")
     cuadrosComparativos.innerHTML = `
     <div class="card w-50 h-100 pb-2">
-                <img src="Assets/Img/Nissan frontier.jpg" class="card-img-top p-2" alt="...">
+                <img src=${selectCarro1.imagen} class="card-img-top p-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">prueba</h5>
+                    <h5 class="card-title">${selectCarro1.nombre}</h5>
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Combustible </span>
-                            <span> Diesel </span>
+                            <span> ${selectCarro1.combustible} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Potencia </span>
-                            <span> 6,708 c.c </span>
+                            <span> ${selectCarro1.potencia} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Torque </span>
-                            <span> 370 hp </span>
+                            <span> ${selectCarro1.torque} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Medidas </span>
-                            <span> 1.152,45 Nm </span>
+                            <span> ${selectCarro1.medidas} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Rines </span>
-                            <span> 24 </span>
+                            <span> ${selectCarro1.rin}</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Precio </span>
-                            <span> 1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (largo) </span>
+                            <span> ${selectCarro1.precio} </span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="card w-50 h-100 pb-2">
-                <img src="Assets/Img/Nissan frontier.jpg" class="card-img-top p-2" alt="...">
+                <img src=${selectCarro2.imagen} class="card-img-top p-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre</h5>
+                    <h5 class="card-title">${selectCarro2.nombre}</h5>
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Combustible </span>
-                            <span> Diesel </span>
+                            <span> ${selectCarro2.combustible} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Potencia </span>
-                            <span> 6,708 c.c </span>
+                            <span> ${selectCarro2.potencia} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Torque </span>
-                            <span> 370 hp </span>
+                            <span> ${selectCarro2.torque} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Medidas </span>
-                            <span> 1.152,45 Nm </span>
+                            <span> ${selectCarro2.medidas} </span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Rines </span>
-                            <span> 24 </span>
+                            <span> ${selectCarro2.rin}</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Precio </span>
-                            <span> 1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (largo) </span>
+                            <span> ${selectCarro2.precio} </span>
                         </li>
                     </ul>
                 </div>
