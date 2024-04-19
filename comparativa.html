@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <nav class="navbar-btc sticky-top navbar bg-black">
-        <div class="container-fluid d-flex align-items-center justify-content-between align-items-center navbar-css px-5 sticky-top">
+    <nav class="navbar-btc navbar sticky-top d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center justify-content-between align-items-center px-5">
             <i class="d-block fa-solid fa-bars boton-menu-barras" data-bs-toggle="offcanvas" href="#offcanvasExample"
                 role="button" aria-controls="offcanvasExample"></i>
             <a href="Index.html"><img src="Assets/Img/Logo4.png" class="imagen-nav"></a>
@@ -38,11 +38,9 @@
             <a href="Index.html">
                 <li class="ps-3">Inicio</li>
             </a>
-            <div class="d-flex w-100 justify-content-between align-items-center menu-catalogo">
-                <a href="catalogo.html" class="menu-catalogo1 ps-3">Catalogo</a>
-                <li class="menu-catalogo2 h-100" data-boton-catalogo="catalogo"><i
-                        class="fa-solid fa-chevron-right"></i></li>
-            </div>
+            <a href="catalogo.html">
+                <li class="ps-3">Catalogo</li>
+            </a>
             <a href="comparativa.html">
                 <li class="ps-3">Comparativa</li>
             </a>
@@ -110,7 +108,7 @@
             <h2 class="text-white fs-2">Comparativa</h2>
         </div>
         <div
-            class="col-12 text-white rounded-pill d-flex flex-column align-items-center justify-content-center py-3 contenedor-comparativa">
+            class="col-12 text-white d-flex flex-column align-items-center justify-content-center py-3 contenedor-comparativa">
             <div class="fs-3 mb-4">Compara las prestaciones de los modelos dentro de nuestro catalogo</div>
 
             <div class="d-flex w-100 contenedor-seleccionar-comparativa justify-content-center">
@@ -118,29 +116,27 @@
 
                 <form name="seleccionar_camioneta_1" class="d-flex flex-column formulario-seleccionar-comparativa1">
                     <select name="seleccionado"
-                        class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center">
+                        class="contenedor-opciones-comparativa px-4 py-3 text-decoration-none text-white text-center">
                         <option value="0">Seleccione tipo de combustible</option>
                         <option value="1">Gasolina</option>
                         <option value="2">Diesel</option>
                         <option value="3">Electrica</option>
                     </select>
                     <select name="opt"
-                        class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center" id="seleccioneCamioneta">
+                        class="contenedor-opciones-comparativa mt-3 px-4 py-3  text-decoration-none text-white text-center" id="seleccioneCamioneta">
                         <option value="-">Seleccione camioneta</option>
                     </select>
                 </form>
                 <div class="comparativa-linea-vertical">
                 </div>
                 <form name="seleccionar_camioneta_2" class="d-flex flex-column formulario-seleccionar-comparativa2">
-                    <select name="seleccionado2"
-                        class="bg-danger px-4 py-3 rounded-pill text-decoration-none text-white text-center">
+                    <select name="seleccionado2" class="contenedor-opciones-comparativa px-4 py-3  text-decoration-none text-white text-center">
                         <option value="0">Seleccione tipo de combustible</option>
                         <option value="1">Gasolina</option>
                         <option value="2">Diesel</option>
                         <option value="3">Electrica</option>
                     </select>
-                    <select name="opt"
-                        class="bg-danger mt-3 px-4 py-3 rounded-pill text-decoration-none text-white text-center" id="seleccioneCamioneta2">
+                    <select name="opt" class="contenedor-opciones-comparativa mt-3 px-4 py-3  text-decoration-none text-white text-center" id="seleccioneCamioneta2">
                         <option value="-">Selecciona camioneta</option>
                     </select>
                 </form>
@@ -150,7 +146,7 @@
 
 
             <div class="col-12 d-flex justify-content-center align-items-start py-3">
-                <span href="" class="bg-danger px-5 py-2 rounded-pill text-decoration-none text-white fs-2 d-flex align-items-center justify-content-center" id="btn-comparar">
+                <span href="" class="contenedor-comparar-comparativa px-5 py-2 text-decoration-none text-white fs-2 d-flex align-items-center justify-content-center" id="btn-comparar">
                     Comparar
                 </span>
             </div>
@@ -186,19 +182,19 @@
     <footer>
         <div>
             <div class="titulo-footer d-flex justify-content-start align-content-center">
-                <h3> Best trucks Colombia </h3>
+                <h3 class="text-white"> Best trucks Colombia </h3>
             </div>
         </div>
         <div class="bloque-enlaces-footer d-column">
-            <div class="my-2">
-                <a href="" class="redireccion-contactanos text-decoration-none text-dark"> Contáctanos </a>
+            <div class="mb-2">
+                <a href="" class="redireccion-contactanos text-decoration-none text-dark text-white"> Contáctanos </a>
             </div>
             <div class="my-2">
-                <a href="/preguntas.html" class="redireccion-preguntas text-decoration-none text-dark">
+                <a href="/preguntas.html" class="redireccion-preguntas text-decoration-none text-dark text-white">
                     Preguntas</a>
             </div>
             <div class="my-2">
-                <a href="/encuentranos.html" class="redireccion-Encuentranos text-decoration-none text-dark">
+                <a href="/encuentranos.html" class="redireccion-Encuentranos text-decoration-none text-dark text-white">
                     Encuentranos
                 </a>
             </div>

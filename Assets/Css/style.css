@@ -5,13 +5,17 @@
     --color-texto: #c9c9c9;
     --color-logo: #FFF;
     --color-auxiliar:#000000;
-    --color-princpial-medio-oscuro: #47573b;
     --color-oscuro-hover: #35412c;
 
     /*  Colores de prueba  */
 
     --color-background-body: background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(91,91,91,1) 100%);;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(83,83,83,1) 100%);;
+    --color-azul-principal: #000d72;
+    --color-azul-oscuro: #000B59;
+    --color-gris-oscuro: #1D1D1D;
+    --color-gris-claro: #3f3f3f;
+
 }
 
 body{
@@ -24,23 +28,21 @@ body{
     font-style: normal;
 }
 
-b{
-    background-color: var(--color-principal);
-}
 
 *{
     margin: 0
     
 }
 
-/** Navbar Sticky **/
+/** Navbar **/
 
-/* Style the navbar */
-.navbar-css{
-    overflow: hidden;
-    background-color: var(--color-navbar);
-    opacity: 70%;
-    
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid var(--color-azul-principal);
+    padding: 20px 0 23px 0;
+
 }
 
 .imagen-nav{
@@ -57,16 +59,6 @@ b{
     text-decoration: none;
 }
 
-.sticky {
-    position:fixed !important;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
-}
-
 /** Footer **/
 
 .titulo-footer{
@@ -79,7 +71,7 @@ b{
 
 .bloque-enlaces-footer{
     margin-left:20px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .bloque-enlaces-footer a{
@@ -110,12 +102,12 @@ width: 75%;
 .boton-menu-barras:hover{
     border: 2px solid var(--color-logo);
     border-radius: 10px;
-    background-color: var(--color-oscuro-hover);
+    background-color: transparent;
     transition: all 0.5s;
 }
 
 .despliegue-menu{
-    background-color: var(--color-principal);
+    background-color: var(--color-gris-oscuro);
     height: 100vh;
 }
 
@@ -138,41 +130,15 @@ width: 75%;
 
 .menu-catalogo{
     border-radius: 10px;
+    border: 2.5px transparent solid;
 }
 
 .menu-catalogo:hover{
-    background-color: var(--color-oscuro-hover);
+    background-color: transparent;
     transition: all 0.5s;
+    border:  solid var(--color-azul-principal);
 }
 
-.despliegue-menu .menu-catalogo1{
-    font-size: 37px;
-    list-style-type: none;
-    color: var(--color-logo);
-    width: 80%;
-    border-radius: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.despliegue-menu .menu-catalogo1:hover{
-    background-color:transparent;
-}
-
-.menu-catalogo2{
-    width: 20%;
-    padding-left: 18px;
-    padding-top: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.menu-catalogo2:hover{
-    background-color: var(--color-logo);
-    color: var(--color-oscuro-hover);
-    transition: all 0.5s;
-    cursor: pointer;
-}
 
 .clase-catalogo{
     border-radius: 10px;
@@ -218,10 +184,12 @@ width: 75%;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px 0;
+    border: 2.5px transparent solid;
 }
 
 .despliegue-menu a:hover{
-    background-color: var(--color-oscuro-hover);
+    background-color: transparent;
+    border: 2.5px var(--color-azul-principal) solid;
     transition: all 0.5s;
 }
 
@@ -230,14 +198,14 @@ width: 75%;
     font-size: 40px;
     padding: 0px 10px;
     color: var(--color-logo);
-    border: 2px solid transparent;
+    border: 2.5px solid transparent;
     border-radius: 10px;
     max-width: 13.2%;
 }
 
 .boton-cerrar-menu:hover{
-    background-color: var(--color-oscuro-hover);
-    border: 2px solid var(--color-logo);
+    background-color: transparent;
+    border: 2.5px solid var(--color-azul-principal);
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -245,7 +213,7 @@ width: 75%;
 /** Side bar inicio de sesion **/
 
 .despliegue-usuario{
-    background-color: var(--color-navbar);
+    background-color: var(--color-gris-oscuro);
 }
 
 .boton-inicio-sesion{
@@ -259,7 +227,7 @@ width: 75%;
 .boton-inicio-sesion:hover{
     border: 2px solid var(--color-logo);
     border-radius: 10px;
-    background-color: var(--color-oscuro-hover);
+    background-color: transparent;
     transition: all 0.5s;
 }
 
@@ -276,11 +244,12 @@ width: 75%;
     border: 2px solid transparent;
     border-radius: 10px;
     max-width: 13.2%;
+    border: 2.5px solid transparent;
 }
 
 .boton-cerrar-login:hover{
-    background-color: var(--color-oscuro-hover);
-    border: 2px solid var(--color-logo);
+    background-color: transparent;
+    border: 2.5px solid var(--color-azul-principal);
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -324,7 +293,7 @@ width: 75%;
 
 .contenedor-inputs input:focus{
     outline: none;
-    background-color: var(--color-oscuro-hover);
+    background-color: var(--color-gris-claro);
     transition: all 0.5s;
 }
 
@@ -360,7 +329,7 @@ width: 75%;
 }
 
 .boton-login{
-    background-color: var(--color-principal);
+    background-color: var(--color-azul-principal);
     width: 80.5%;
     border: solid 1px var(--color-logo);
     height: 60px;
@@ -369,12 +338,12 @@ width: 75%;
 
 .boton-login:hover{
     border: 1px solid var(--color-logo);
-    background-color: var(--color-oscuro-hover);
+    background-color: var(--color-azul-oscuro);
     transition: all 0.5s;
 }
 
 .boton-registro{
-    color: var(--color-principal);
+    color: var(--color-azul-principal);
     background-color: var(--color-logo);
     width: 80.5%;
     border: solid 1px var(--color-logo);
@@ -386,7 +355,7 @@ width: 75%;
 .boton-registro:hover{
     border: 1px solid var(--color-logo);
     color: var(--color-logo);
-    background-color: var(--color-oscuro-hover);
+    background-color: var(--color-azul-oscuro);
     transition: all 0.5s;
 }
 
@@ -452,7 +421,11 @@ padding-right: 20px;
 
 .cabecera-catalogo{
     color: var(--color-texto);
-    background-color: var(--color-navbar);
+    background-color: var(--color-gris-claro);
+}
+
+.cabecera-catalogo2{
+    color: var(--color-texto);
 }
 
 .contenedor-catalogo{
@@ -741,7 +714,21 @@ background-size: cover !important;
 /* Pagina comparativa*/
 
 .contenedor-comparativa{
-    background-color: var(--color-princpial-medio-oscuro)
+    border-top: 2px solid var(--color-azul-principal);
+    border-bottom: 2px solid var(--color-azul-principal);
+    background: rgb(37,37,37);
+    background: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(0,0,0,1) 51%, rgba(37,37,37,1) 100%);
+}
+
+.contenedor-opciones-comparativa{
+    background-color: var(--color-gris-oscuro);
+    border: 2px solid var(--color-azul-principal);
+}
+
+.contenedor-comparar-comparativa{
+    border-top: 2px solid var(--color-azul-principal);
+    border-bottom: 2px solid var(--color-azul-principal);
+    background-color: var(--color-azul-oscuro) !important;
 }
 
 .contenedor-seleccionar-comparativa {
