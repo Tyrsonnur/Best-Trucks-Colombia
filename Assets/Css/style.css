@@ -675,8 +675,9 @@ background-size: cover !important;
     font-size: 1.2rem;
 }
 
-.lista-especificaciones{
-    background-color: var(--color-fondo-body) !important;
+.lista-especificaciones li{
+    color: var(--color-logo);
+    background-color: transparent !important;
 }
 
 /** Seccion JavaScript **/
