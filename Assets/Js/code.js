@@ -163,7 +163,7 @@ let opt_3 = [ObjetoFormulario, Electrica_ford_f150, Electrica_jac_t8, Electrica_
 
 let camionetas = [opt_1,opt_2,opt_3]
 
-console.log(opt_1[1].nombre)
+/* Funciones para el select dinamico */
 
 function camioneta_comparar1() {
     let seleccionado = document.forms["seleccionar_camioneta_1"]["seleccionado"].value;
@@ -184,7 +184,7 @@ function camioneta_comparar1() {
         selectOpt.length = numero_opciones;
 
         for (let i = 0; i < numero_opciones; i++) {
-            selectOpt.options[i].value = mis_opciones[i].nombre;
+            selectOpt.options[i].value = mis_opciones[i];
             selectOpt.options[i].text = mis_opciones[i].nombre;
         }
     } else {
@@ -235,3 +235,77 @@ const select2 = document.forms["seleccionar_camioneta_2"]["seleccionado2"];
 select1.addEventListener('change', camioneta_comparar1);
 select2.addEventListener('change', camioneta_comparar2)
 
+
+
+/* Funcion crear tarjetas de comparacion */
+
+let botonComparar = document.querySelector("#btn-comparar")
+
+botonComparar.addEventListener("click", () => {
+    let cuadrosComparativos = document.querySelector("#colocar-carros-comparativa")
+    cuadrosComparativos.innerHTML = `
+    <div class="card w-50 h-100 pb-2">
+                <img src="Assets/Img/Nissan frontier.jpg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">prueba</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Combustible </span>
+                            <span> Diesel </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Potencia </span>
+                            <span> 6,708 c.c </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Torque </span>
+                            <span> 370 hp </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Medidas </span>
+                            <span> 1.152,45 Nm </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Rines </span>
+                            <span> 24 </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Precio </span>
+                            <span> 1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (largo) </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card w-50 h-100 pb-2">
+                <img src="Assets/Img/Nissan frontier.jpg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Combustible </span>
+                            <span> Diesel </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Potencia </span>
+                            <span> 6,708 c.c </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Torque </span>
+                            <span> 370 hp </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Medidas </span>
+                            <span> 1.152,45 Nm </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Rines </span>
+                            <span> 24 </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span> Precio </span>
+                            <span> 1,981 mm (alto) 2,093 mm (ancho) 6,060 mm (largo) </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>`
+})

@@ -765,6 +765,14 @@ background-size: cover !important;
     transform: translateX(30px)
 }
 
+#btn-comparar{
+    background-color: purple;
+
+}
+
+#btn-comparar:hover{
+    cursor: pointer;
+}
 
 /*
 
