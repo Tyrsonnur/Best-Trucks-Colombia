@@ -769,3 +769,16 @@ border-radius: 2%;
     height: 300px !important;
     width: 200px !important;
 }
+
+.container-encuentranos{
+    margin-left: 70px;
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+
+.tarjeta-personal{
+    gap: 10px;
+    margin-left: 300px;
+    border: transparent;
+    border-radius: 2px;
+}
