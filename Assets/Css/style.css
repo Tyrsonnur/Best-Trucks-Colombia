@@ -680,6 +680,15 @@ background-size: cover !important;
     background-color: transparent !important;
 }
 
+.lista-especificaciones2 li{
+    color: var(--color-logo);
+    background-color: transparent !important;
+}
+
+.lista-especificaciones3{
+    background-color: var(--color-azul-oscuro) !important;
+}
+
 /** Seccion JavaScript **/
 
 

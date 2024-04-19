@@ -155,6 +155,7 @@ let Electrica_radar_rd6 = {
     precio: "$170.000.000",
     imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_RD6.jpeg"
 }
+
 let Electrica_dongfeng_rich = {
     nombre: "Dongfeng Rich",
     combustible: "Electrica",
@@ -163,7 +164,7 @@ let Electrica_dongfeng_rich = {
     medidas: "1,820 mm (alto) 1,850 mm (ancho) 5,290 mm (largo)",
     rin: "(18 in)",
     precio: "$175.000.000",
-    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_Rich_6.jpeg"
+    imagen: "Assets/Img/imagenes-comparativa/Electrica_Tarjeta_Rich.jpeg"
 }
 
 let ObjetoFormulario = {
@@ -347,11 +348,11 @@ botonComparar.addEventListener("click", () => {
 
     let cuadrosComparativos = document.querySelector("#colocar-carros-comparativa")
     cuadrosComparativos.innerHTML = `
-    <div class="card w-50 h-100 pb-2">
+    <div class="card w-50 h-100 pb-2 lista-especificaciones3">
                 <img src=${selectCarro1.imagen} class="card-img-top p-2" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">${selectCarro1.nombre}</h5>
-                    <ul class="list-group">
+                <div class="card-body ">
+                    <h5 class="card-title text-white">${selectCarro1.nombre}</h5>
+                    <ul class="list-group lista-especificaciones2">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Combustible </span>
                             <span> ${selectCarro1.combustible} </span>
@@ -379,11 +380,11 @@ botonComparar.addEventListener("click", () => {
                     </ul>
                 </div>
             </div>
-            <div class="card w-50 h-100 pb-2">
+            <div class="card w-50 h-100 pb-2 lista-especificaciones3">
                 <img src=${selectCarro2.imagen} class="card-img-top p-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">${selectCarro2.nombre}</h5>
-                    <ul class="list-group">
+                    <h5 class="card-title text-white">${selectCarro2.nombre}</h5>
+                    <ul class="list-group lista-especificaciones2">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <span> Combustible </span>
                             <span> ${selectCarro2.combustible} </span>
