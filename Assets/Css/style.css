@@ -10,11 +10,12 @@
 
     /*  Colores de prueba  */
 
-    --color-principal1: 
+    --color-background-body: background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(91,91,91,1) 100%);;
 }
 
 body{
-    background-color: var(--color-fondo-body)
+    background-color: var(--color-background-body)
 }
 
 .poppins-light *{

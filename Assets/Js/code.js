@@ -296,6 +296,9 @@ botonComparar.addEventListener("click", () => {
         case 'Dongfeng Rich':
             selectCarro1 = Electrica_dongfeng_rich
             break;
+        default:
+            selectCarro1 = null
+            break;
     }
 
     let selectCarro2 = document.querySelector("#seleccioneCamioneta2").value
@@ -336,6 +339,9 @@ botonComparar.addEventListener("click", () => {
             break;
         case 'Dongfeng Rich':
             selectCarro2 = Electrica_dongfeng_rich
+            break;
+        default:
+            selectCarro1 = null
             break;
     }
 
