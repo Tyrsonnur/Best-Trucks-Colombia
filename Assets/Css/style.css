@@ -1,5 +1,5 @@
 :root{
-    --color-principal: #010005;
+  /**  --color-principal: #010005;
     --color-fondo-body: background: rgb(1,0,5);
     background: linear-gradient(180deg, #010005e7 0%, rgba(122,128,129,1) 100%);;
     --color-navbar: #4D5F3E;
@@ -7,11 +7,11 @@
     --color-logo: #FFF;
     --color-auxiliar: #7a8081;
     --color-princpial-medio-oscuro: #47573b;
-    --color-oscuro-hover: #35412c;
+    --color-oscuro-hover: #35412c;**/
 
 
 
-    /*
+    
     --color-principal: #516343;
     --color-fondo-body: #AAC0A5;
     --color-navbar: #4D5F3E;
@@ -20,7 +20,7 @@
     --color-auxiliar:#000000;
     --color-princpial-medio-oscuro: #47573b;
     --color-oscuro-hover: #35412c;
-*/
+
 
     /*  Colores de prueba  */
 }
@@ -47,7 +47,6 @@ body{
     overflow: hidden;
     background-color: var(--color-navbar);
     opacity: 70%;
-    filter: blur(20px);
     
 }
 
@@ -74,7 +73,6 @@ body{
     position:fixed !important;
     top: 0;
     width: 100%;
-    filter: blur(30px);
 }
 
 .sticky + .content {
