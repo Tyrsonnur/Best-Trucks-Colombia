@@ -58,7 +58,7 @@ body{
 }
 
 .imagen-nav{
-    height: 100px;
+    height: 60px;
     opacity: 100%;
 }
 
@@ -850,4 +850,13 @@ background-size: cover !important;
 
 .tarjeta-jesar img{
     width: 465px;
+}
+
+#carouselExampleCaptions{
+    height: 300px !important;
+    width: 1116px !important;
+}
+
+.presio{
+    background-color: #ce8e85;
 }
